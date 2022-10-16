@@ -6,10 +6,6 @@ import Tab from "./Tab/Tab";
 const Hero = () => {
   const [tab, setTab] = useState(0);
 
-  const setTabHandler = (i) => {
-    setTab(i);
-    console.log("Clicked");
-  };
   const images = [
     {
       img: "https://images.unsplash.com/photo-1595665593673-bf1ad72905c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1028&q=80",
@@ -22,9 +18,16 @@ const Hero = () => {
     },
   ];
   console.log(tab);
+
   return (
     <div className={classes.Hero}>
       <SlideShow images={images} tab={tab} setTab={setTab} />
+      <div className={classes.callToAction}>
+        <h1 className={classes.CTA_Header}>
+          Your One Stop Shop For Retail Solutions. Come Work With Us
+        </h1>
+        <button className={classes.CTA_btn}>Explore More</button>
+      </div>
       <div className={classes.BgTabs}>
         {images.map((slide, i) => {
           return (
