@@ -1,14 +1,11 @@
 import classes from "./Tab.module.css";
 
-const Tab = ({ image }) => {
+const Tab = ({ image, length, click, tab, active }) => {
   return (
-    <div className={classes.Tab}>
+    <div className={classes.Tab} onClick={() => click(tab)}>
       <div className={classes.wrapper}>
-        <img
-          src="https://images.unsplash.com/photo-1595665593673-bf1ad72905c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1028&q=80"
-          className={classes.bgImage}
-        />
-        <div className={classes.backDrop}></div>
+        <img src={image} className={classes.bgImage} />
+        {!active && <div className={classes.backDrop}></div>}
       </div>
     </div>
   );

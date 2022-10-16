@@ -16,12 +16,32 @@
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 200;
   background-color: rgba(0, 0, 0, 0.4);
 }
 .BgTabs {
   display: flex;
   position: absolute;
+  z-index: 500;
   left: 20px;
   top: 100;
   transform: translateY(-50%);
+}
+.slideShow {
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+.slide {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+
+  width: 100%;
 }
