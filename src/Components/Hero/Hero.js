@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState} from "react";
 import SlideShow from "../SlideShow/SlideShow";
 import classes from "./Hero.module.css";
 import Tab from "./Tab/Tab";
