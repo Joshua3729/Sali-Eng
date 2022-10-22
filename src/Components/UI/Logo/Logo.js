@@ -9,13 +9,13 @@ const Logo = ({ scroll }) => {
         style={{ color: scroll ? "#181b29" : "white" }}
         className={classes.logo_name}
       >
-        Sali Retail
+        Sali Eng
       </div>
       <div
         style={{ color: scroll ? "#181b29" : "white" }}
         className={classes.logo_details}
       >
-        Solutions
+        Retail Solutions
       </div>
     </div>
   );
