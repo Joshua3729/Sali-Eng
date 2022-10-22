@@ -1,4 +1,4 @@
-import { useState} from "react";
+import { useState } from "react";
 import SlideShow from "../SlideShow/SlideShow";
 import classes from "./Hero.module.css";
 import Tab from "./Tab/Tab";
@@ -17,7 +17,6 @@ const Hero = () => {
       img: "https://images.unsplash.com/photo-1570857502809-08184874388e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=578&q=80",
     },
   ];
-  console.log(tab);
 
   return (
     <div className={classes.Hero}>

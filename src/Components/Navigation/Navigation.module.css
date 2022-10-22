@@ -14,6 +14,7 @@
 }
 .scroll {
   background-color: white;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
 }
 .nav_list {
   display: flex;
@@ -26,4 +27,54 @@
 
 .nav_item:last-child {
   margin-right: 0;
+}
+.CTA_btn {
+  border: none;
+  padding: 15px 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #181b29, #6c7586);
+}
+.navLink {
+  position: relative;
+}
+.navLink::after {
+  content: " ";
+  position: absolute;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(to right),
+      color-stop(#181b29),
+      to(#6c7586)
+    )
+    fixed !important;
+  background: linear-gradient(to right, #032b44, #6c7586) fixed !important;
+  top: 100%;
+  margin-top: 4px;
+  border-radius: 3px;
+  left: 0%;
+  width: 100%;
+  height: 3px;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  -webkit-transform-origin: right center;
+  transform-origin: right center;
+  box-sizing: border-box;
+  display: block;
+}
+.nav_item:hover .navLink::after {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.activeLink::after {
+  -webkit-transform: scaleX(1) !important;
+  transform: scaleX(1) !important;
 }

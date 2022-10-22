@@ -47,13 +47,12 @@
 }
 .CTA_btn {
   border: none;
-  width: 200px;
-  padding: 20px;
+  padding: 15px 20px;
   color: white;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 17px;
   border-radius: 10px;
-  background: linear-gradient(to right, black, #6c7586);
+  background: linear-gradient(to right, #181b29, #6c7586);
 }
 .callToAction {
   position: absolute;
