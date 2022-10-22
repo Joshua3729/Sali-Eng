@@ -7,10 +7,8 @@ import ContactUs from "./Pages/ContactUs/ContactUs";
 import Navigation from "./Components/Navigation/Navigation";
 
 
-
 const App = () => {
   return (
-
     <>
     <Navigation/>
     <Routes>

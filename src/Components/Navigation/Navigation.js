@@ -29,33 +29,33 @@ const Navigation = () => {
         <li
           className={classes.nav_item}
         >
-          <Link to="/" style={{ color: scroll ? "black" : "blue" , textDecoration:'none'}}>Home</Link>
+          <Link to="/" style={{ color: scroll ? "black" : "white" , textDecoration:'none'}}>Home</Link>
         </li>
         <li
           className={classes.nav_item}
         >
-            <Link to="/AboutUs" style={{ color: scroll ? "black" : "blue" , textDecoration:'none' }}>About us</Link>
+            <Link to="/AboutUs" style={{ color: scroll ? "black" : "white" , textDecoration:'none' }}>About us</Link>
         </li>
         <li
           className={classes.nav_item}
           style={{ color: scroll ? "black" : "white" }}
         >
          
-          <Link to="/WhatWeDo" style={{ color: scroll ? "black" : "blue" , textDecoration:'none' }}>What We Do</Link>
+          <Link to="/WhatWeDo" style={{ color: scroll ? "black" : "white" , textDecoration:'none' }}>What We Do</Link>
         </li>
         <li
           className={classes.nav_item}
           style={{ color: scroll ? "black" : "white" }}
         >
       
-          <Link to="/Projects" style={{ color: scroll ? "black" : "blue" , textDecoration:'none' }}>Projects</Link>
+          <Link to="/Projects" style={{ color: scroll ? "black" : "white" , textDecoration:'none' }}>Projects</Link>
         </li>
         <li
           className={classes.nav_item}
           style={{ color: scroll ? "black" : "white" }}
         >
         
-          <Link to="/ContactUs" style={{ color: scroll ? "black" : "blue" , textDecoration:'none' }}>ContactUs</Link>
+          <Link to="/ContactUs" style={{ color: scroll ? "black" : "white" , textDecoration:'none' }}>ContactUs</Link>
         </li>
       </ul>
     </div>,

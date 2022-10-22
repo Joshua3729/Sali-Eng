@@ -1,5 +1,24 @@
+
 .AboutUsPage{
     position: relative;
     width: 100%;
     height: calc(100vh + 50px);
+    opacity: 0.8;
+   
   }
+
+  .section_2 {
+    width: 100%;
+    height: 100vh;
+  }
+  .text {
+    backface-visibility: hidden;
+    font-size: 2rem;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
