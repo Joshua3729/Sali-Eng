@@ -41,6 +41,46 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
+        <div className={classes.section_3}>
+          <div className={classes.innerWraper}>
+            <div className={classes.header_wrapper}>
+              <div className={classes.section_details}>
+                <h2>On point and driven engineering team</h2>
+                <p>
+                  With magnitude of experience and an ongoing desire for
+                  providing quality retail solutions throughout South Africa.
+                  The Sali engineering and design teams are on hand to build out
+                  your ideas
+                </p>
+              </div>
+              <div className={classes.stats_wrapper}>
+                <div className={classes.stat_item}>
+                  <p className={classes.stat}>+100</p>
+                  <div className={classes.stat_description}>Clients</div>
+                </div>
+                <div className={classes.stat_item}>
+                  <p className={classes.stat}>+1</p>
+                  <div className={classes.stat_description}>Sites</div>
+                </div>
+                <div className={classes.stat_item}>
+                  <p className={classes.stat}>+10</p>
+                  <div className={classes.stat_description}>
+                    Completed 2022 projects
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={classes.section_content}>
+              <div className={classes.service_stats}>
+                <div className={classes.service_stat_wrapper}></div>
+                <div className={classes.service_stat_wrapper}></div>
+                <div className={classes.service_stat_wrapper}></div>
+              </div>
+
+              <div className={classes.slide_show}></div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
