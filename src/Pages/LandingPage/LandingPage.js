@@ -30,7 +30,7 @@ const LandingPage = () => {
               />
               <Card
                 image={storage}
-                header={"Retail Garmet Wardrobe"}
+                header={"Retail Garmet Wardrobes"}
                 details={"We Build Industrial Retail Wardrobe."}
               />
               <Card

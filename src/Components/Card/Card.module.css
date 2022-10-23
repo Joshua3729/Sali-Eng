@@ -27,6 +27,7 @@
 .text_wrapper {
   position: absolute;
   z-index: 200;
+  width: calc(100% - 40px);
   top: 50%;
   left: 20px;
   transform: translateY(-50%);
@@ -40,4 +41,16 @@
 .details {
   margin: 0;
   font-size: 20px;
+}
+.discoverMore_btn {
+  border: none;
+  background-color: white;
+  color: #181b29;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: 600;
 }
