@@ -3,8 +3,6 @@
   margin: 0 auto;
   max-width: 100%;
   overflow: hidden;
-  animation-name: example;
-  animation-duration: 2s;
 }
 
 .slideshowSlider {
@@ -17,7 +15,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 700;
 }
 
@@ -38,6 +36,8 @@
   background-repeat: no-repeat;
   width: 100%;
   height: calc(100vh + 100px);
+  animation-name: example;
+  animation-duration: 2s;
 }
 @keyframes example {
   0% {
