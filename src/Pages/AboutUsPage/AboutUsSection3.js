@@ -28,16 +28,16 @@ const AboutUsSection3 = ()=>{
 
                 <Grid item  xs={3} > 
                     
-                    <div>
+                    <div className={classes.bMargin}>
                         <h1 className={classes.count}>+00</h1>
-                        <h1 className={classes.supportingTest} >Team members</h1>
+                        <h1 className={classes.supportingText} >Team members</h1>
                     </div>
                 </Grid>
                 <Grid item  xs={3}> 
                     <div className={classes.bMargin}>
                         
                         <h1 className={classes.count}>+00</h1>
-                        <h1 className={classes.supportingTest}>Yearly Products produced</h1>
+                        <h1 className={classes.supportingText}>Yearly Products produced</h1>
                       
                     </div>
 
