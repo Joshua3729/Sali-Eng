@@ -31,9 +31,10 @@ const AboutUsSection4 = ()=>{
 
 
             <div  className={classes.parent}>
-
-              <img src={img1}  alt="grid item"  className={classes.floatingImages}/>
-
+              <div className={classes.parent1}>
+              <img src={img1}  alt="grid item"  className={classes.floatingImages} />
+              </div>
+            
                 <div  className={classes.child} >
 
                   <img src={img2}  alt="grid item"  className={classes.floatingImages}/>
