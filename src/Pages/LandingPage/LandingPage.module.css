@@ -99,3 +99,96 @@
   grid-template-rows: repeat(4, 1fr);
   grid-gap: 25px;
 }
+.parallex_section {
+  width: 100%;
+  background-image: linear-gradient(
+      43deg,
+      rgba(24, 27, 41, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 46%
+    ),
+    url("https://images.unsplash.com/photo-1619759247378-6a73e3ad45f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallex_header {
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+  width: 700px;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+.parallex_innerWrapper {
+  display: block;
+  max-width: 1140px;
+  padding: 50px;
+  margin: 0 auto;
+}
+.contact_sectionText_header {
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+.parrallex_text {
+  width: 700px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.secondary_header {
+  color: white;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.view_projects_btn {
+  width: 220px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(to right, #181b29, #6c7586);
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #ccc;
+}
+
+.contact_section {
+  background-image: linear-gradient(
+      43deg,
+      rgba(24, 27, 41, 0.9) 0%,
+      rgba(0, 0, 0, 0.9) 46%
+    ),
+    url("https://images.unsplash.com/photo-1573496774426-fe3db3dd1731?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-color: #181b29;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.contact_sectionText {
+  /* background-color: red; */
+}
+.contact_grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+}
+.innerText {
+  color: white;
+  font-size: 20px;
+}
+.form_wrapper {
+  height: 80vh;
+  background-color: white;
+}

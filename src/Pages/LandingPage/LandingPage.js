@@ -9,6 +9,7 @@ import SlideShow from "./Components/SlideShow";
 import StatCounter from "../../Components/StatCounter/StatCounter";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import Typed from "react-typed";
 
 const LandingPage = () => {
   const { ref, inView } = useInView({ threshold: 0.3, triggerOnce: true });
@@ -67,6 +68,36 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
+        <div className={classes.parallex_section}>
+          <div className={classes.parallex_innerWrapper}>
+            <h1 className={classes.parallex_header}>
+              Sali Eng Muti-level manufacturing
+            </h1>
+            <h3 className={classes.secondary_header}>
+              <Typed
+                strings={[
+                  "Home Equipment",
+                  "Retail Equipment",
+                  "Storage Equipment",
+                ]}
+                typeSpeed={100}
+                backSpeed={50}
+                loop
+              />
+            </h3>
+            <p className={classes.parrallex_text}>
+              Est tempora consequatur ut harum quam ut consequuntur nemo? Ea
+              quia exercitationem ut deserunt voluptatum et rerum necessitatibus
+              a sint Quis nam accusantium iste 33 nihil nulla. Qui quidem illum
+              ea earum repudiandae in ullam voluptatem. Ea voluptatem labore ab
+              earum delectus et commodi maxime 33 labore cupiditate quo corrupti
+              tempora cum perspiciatis deserunt ut magnam galisum!
+            </p>
+            <button className={classes.view_projects_btn}>
+              See Our Projects
+            </button>
+          </div>
+        </div>
         <div className={classes.section_3}>
           <div className={classes.innerWraper}>
             <div className={classes.header_wrapper}>
@@ -112,6 +143,25 @@ const LandingPage = () => {
                 <SlideShow images={images} />
               </div>
             </div>
+          </div>
+        </div>
+        <div className={classes.contact_section}>
+          <div
+            className={[classes.innerWraper, classes.contact_grid].join(" ")}
+          >
+            <div className={classes.contact_sectionText}>
+              <h1 className={classes.contact_sectionText_header}>
+                Looking after the details and the planet
+              </h1>
+              <p className={classes.innerText}>
+                Lorem ipsum dolor sit amet. Sed quia necessitatibus et quidem
+                quod cum sunt quasi aut consectetur incidunt est quae
+                accusantium est maiores harum. Aut accusantium iusto et quaerat
+                corporis id voluptate fugit. Est debitis sunt quo eius corrupti
+                qui autem quia!
+              </p>
+            </div>
+            <div className={classes.form_wrapper}></div>
           </div>
         </div>
       </div>
