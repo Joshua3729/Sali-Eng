@@ -89,11 +89,23 @@ const LandingPage = () => {
                 />
               </div>
             </div>
-            <div className={classes.section_content}>
+            <div className={classes.section_content} ref={ref}>
               <div className={classes.service_stats}>
-                <StatMeter name={"CUSTOMER SUPPORT"} percentage={80} />
-                <StatMeter name={"COMMUNICATION"} percentage={71} />
-                <StatMeter name={"FAST PRODUCT DELIVERY"} percentage={60} />
+                <StatMeter
+                  name={"CUSTOMER SUPPORT"}
+                  percentage={80}
+                  inView={inView}
+                />
+                <StatMeter
+                  name={"COMMUNICATION"}
+                  percentage={71}
+                  inView={inView}
+                />
+                <StatMeter
+                  name={"FAST PRODUCT DELIVERY"}
+                  percentage={60}
+                  inView={inView}
+                />
               </div>
 
               <div className={classes.slide_show}>
