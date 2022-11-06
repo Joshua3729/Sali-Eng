@@ -1,12 +1,12 @@
 import classes from "./StatMeter.module.css";
 
-const StatMeter = () => {
+const StatMeter = ({ name, percentage = 0 }) => {
   return (
     <div className={classes.service_stat_wrapper}>
-      <p>CUSTOMER SUPPORT</p>
+      <p>{name}</p>
       <div className={classes.stat_meter_wrapper}>
-        <div className={classes.stat_meter} style={{ width: "80%" }}>
-          <p>80%</p>
+        <div className={classes.stat_meter} style={{ width: `${percentage}%` }}>
+          <p>{percentage}%</p>
         </div>
       </div>
     </div>

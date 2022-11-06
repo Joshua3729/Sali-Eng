@@ -1,0 +1,20 @@
+.stat {
+  font-size: 50px;
+}
+.stat_description {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.StatCounter {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #181b29;
+  color: white;
+}

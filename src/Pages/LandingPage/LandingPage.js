@@ -4,8 +4,34 @@ import classes from "./LandingPage.module.css";
 import desk from "../../Assets/Images/desk.jpeg";
 import storage from "../../Assets/Images/storage.jpeg";
 import kitchen from "../../Assets/Images/Kitchen.jpeg";
+import StatMeter from "../../Components/StatMeter/StatMeter";
+import SlideShow from "./Components/SlideShow";
+import StatCounter from "../../Components/StatCounter/StatCounter";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 const LandingPage = () => {
+  const { ref, inView } = useInView({ threshold: 0.3, triggerOnce: true });
+
+  useEffect(() => {
+    console.log("inView " + inView);
+  }, [inView]);
+  const images = [
+    {
+      img: "https://i.pinimg.com/originals/62/bc/10/62bc103ac8f6f468b84f238b4055176f.jpg",
+      text: "Sali Eng abides by the law and the regulations of the retail solutions industry governing body.",
+    },
+
+    {
+      img: "https://img.freepik.com/premium-photo/interior-men-s-clothing-store-style-fashion_120897-3074.jpg?w=2000",
+      text: "Sali Eng maintains general client confidentiality and their information and products.",
+    },
+    {
+      img: "https://media.istockphoto.com/photos/modern-black-luxury-walk-in-closet-dressing-room-wardrobe-picture-id1189147102?k=20&m=1189147102&s=612x612&w=0&h=Dl6LuB1Uuj_0czAKFFTSHN-G1xRJVBvFmeGaHWBtL3o=",
+      text: "Sali Eng was founded on June 22, 2022 by a team of talented retail solutions engineeres who work around the clock to deliver state of the art products to their customers",
+    },
+  ];
+
   return (
     <>
       <div className={classes.LandingPage}>
@@ -53,31 +79,26 @@ const LandingPage = () => {
                   your ideas
                 </p>
               </div>
-              <div className={classes.stats_wrapper}>
-                <div className={classes.stat_item}>
-                  <p className={classes.stat}>+100</p>
-                  <div className={classes.stat_description}>Clients</div>
-                </div>
-                <div className={classes.stat_item}>
-                  <p className={classes.stat}>+1</p>
-                  <div className={classes.stat_description}>Sites</div>
-                </div>
-                <div className={classes.stat_item}>
-                  <p className={classes.stat}>+10</p>
-                  <div className={classes.stat_description}>
-                    Completed 2022 projects
-                  </div>
-                </div>
+              <div className={classes.stats_wrapper} ref={ref}>
+                <StatCounter target={200} stat={"Clients"} inView={inView} />
+                <StatCounter target={5} stat={"Sites"} inView={inView} />
+                <StatCounter
+                  target={367}
+                  stat={"Completed 2022 projects"}
+                  inView={inView}
+                />
               </div>
             </div>
             <div className={classes.section_content}>
               <div className={classes.service_stats}>
-                <div className={classes.service_stat_wrapper}></div>
-                <div className={classes.service_stat_wrapper}></div>
-                <div className={classes.service_stat_wrapper}></div>
+                <StatMeter name={"CUSTOMER SUPPORT"} percentage={80} />
+                <StatMeter name={"COMMUNICATION"} percentage={71} />
+                <StatMeter name={"FAST PRODUCT DELIVERY"} percentage={60} />
               </div>
 
-              <div className={classes.slide_show}></div>
+              <div className={classes.slide_show}>
+                <SlideShow images={images} />
+              </div>
             </div>
           </div>
         </div>
