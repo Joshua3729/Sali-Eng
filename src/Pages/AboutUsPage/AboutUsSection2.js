@@ -19,7 +19,7 @@ const AboutUsSection2 = () => {
             as long as it doesn’t distract and slow down your design process. Design is an evolutionary process, 
             and filler text is just one tool in your progress-pushing arsenal. Use it where it makes sense to use it, 
             and pull it once the natural process indicates that it’s time to
-            roll out a descendant built with real content.<pre><a href="https://placeholder.com/text/">placeholder.com</a></pre>
+            roll out a descendant built with real content.
             
 
 </p>

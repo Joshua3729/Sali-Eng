@@ -6,7 +6,7 @@ import img2 from '../../Components/drawable/img2.jpg'
 const AboutUsSection4 = ()=>{
     return (
         <>
-        <div className={classes.text_s4}>
+        <div className={classes.section4container}>
           <div  className={classes.text_s4_p2}>
             <h1 className={classes.message}>Specialists on innovative solutions</h1>
             <p className={classes.paragraph}> If you’re thinking that filler text seems pretty boring and uncontroversial
@@ -26,21 +26,14 @@ const AboutUsSection4 = ()=>{
                 design. You can’t get a true sense for how your content plays with your
                 design unless you use the real thing!C/O <pre><a href="https://placeholder.com/text/">placeholder.com</a></pre></p>
           </div>
-
-
-
-
-            <div  className={classes.parent}>
-              <div className={classes.parent1}>
-              <img src={img1}  alt="grid item"  className={classes.floatingImages} />
-              </div>
-            
-                <div  className={classes.child} >
-
-                  <img src={img2}  alt="grid item"  className={classes.floatingImages}/>
-                </div>
-
+         
+            <div className={classes.containerOfAnimatedImages}>
+              
+              <img src={img1}  alt="grid item"  className={classes.floatingImages}  id={classes.topImage}/>
+              <img src={img2}  alt="grid item"  className={classes.floatingImages}  id={classes.bottomImage}/>
+  
             </div>
+           
 
 
         </div>
