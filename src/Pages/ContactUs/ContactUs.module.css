@@ -1,0 +1,114 @@
+.firstLine{
+    color:rgb(2, 2, 27);
+    font-weight: bold;
+    opacity: .8;
+    font-size: 3rem;
+    text-align: center;
+}
+.section{
+    width: 80%;
+}
+
+.gridItemImg{
+    width: 10rem;
+    height: 10rem;
+    opacity: 1;
+}
+.gridContainer1{
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: auto  auto auto auto auto auto;
+    gap: 1rem;
+
+}
+
+.subject{
+    color:rgb(2, 2, 27);
+    font-weight: bold;
+    opacity: .8;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+    
+
+}
+.subjectLine{
+  color: grey;
+  opacity: .7;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 50px;
+  
+
+}
+.alignment{
+    contain: content;
+    background-color: grey;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+}
+.form{
+    margin-top: 50px;
+}
+.wrapper{
+    width: fit-content;
+    height: fit-content;
+}
+.cardContainer{
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    gap: 1rem;
+}
+.card{
+    contain: content;
+    width: 15rem;
+    height: 9rem;
+    border-radius: 5px;
+    box-shadow:3px 3px  2px rgba(128, 128, 128, 0.3);
+    padding: 2rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(4, 4, 51, 0.1);
+    transition: transform 0.3s ease;
+    
+}
+.cardIcon{
+    position: relative;
+    width: 1.8rem;
+    height: 1.8rem;
+    left: 40%;
+    border-radius: 25px;
+    background-color:rgba(4, 4, 51, 0.7);
+    padding: 1rem;
+}
+.callUs{
+    margin-top: 10px;
+    text-align: center;
+    color:rgb(2, 2, 27);
+    font-weight: bold;
+    opacity: .8;
+    font-size: 1rem;
+}
+.callUsNo{
+    margin-top: 10px;
+    color: grey;
+  opacity: .7;
+  font-size: 1rem;
+  text-align: center;
+}
+.card:hover{
+    box-shadow:1px 5px  5px  3px rgba(128, 128, 128, 0.3);
+    transform: scale(1.01);
+}
