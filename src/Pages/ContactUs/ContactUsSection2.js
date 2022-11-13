@@ -77,11 +77,6 @@ const ContactUsSection2 = () => {
 
         </div>
     </div>
-
-
-    <div className={classes.form}>
-
-    </div>
     
     </>
   )

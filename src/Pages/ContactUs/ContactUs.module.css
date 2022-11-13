@@ -113,3 +113,89 @@
     box-shadow:1px 5px  5px  3px rgba(128, 128, 128, 0.3);
     transform: scale(1.01);
 }
+
+.contactUsForm{
+    margin: auto;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    padding: 2rem;
+    width: 65%;
+    border-style: solid;
+    border-width: 1px;
+    background-color:rgba(0, 0, 20, 0.01) ;
+    border-radius: 5px;
+    box-shadow:3px 3px  2px rgba(128, 128, 128, 0.3);
+    padding: 1rem;
+    border-color: rgba(4, 4, 51, 0.1);
+    
+}
+
+.formTitle{
+    color:rgb(2, 2, 27);
+    font-weight: bold;
+    opacity: .8;
+    font-size: 2rem;
+}
+.formSubtitle{
+    text-align: start;
+    color: grey;
+    opacity: .7;
+    font-size: 1.15rem;
+    margin-top: .7rem;
+    
+}
+.input{
+    height: 2.5rem;
+    width: 90%;
+    border-width: 0;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: grey;
+    font-size: 1rem;
+}
+.containerWithinForm{
+    display: flex;
+    gap:1rem;
+    flex-wrap: wrap;
+   
+    
+}
+.formContent{
+    display: grid;
+    width: 48%;
+}
+.paragraphInForm{
+    display:grid;
+    width: 100%;
+   
+}
+.paragraphInForm> input{
+    height: 7rem;
+    border-width: 0;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: grey;
+    font-size: 1rem;
+}
+.buttonSubmit{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color:white;
+    background:linear-gradient(90deg,rgba(2, 2, 27, 0.9),rgba(2, 2, 27, .9),rgba(2, 2, 27, .7)) ;
+    padding: 1rem;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 5px;
+}
+.buttonSubmit:hover{
+    opacity: .8;
+}
+.input:focus{
+    border-width: 0;
+    outline: none;
+}
+
+.paragraphInForm> input:focus{
+    border-width: 0;
+    outline: none;
+}

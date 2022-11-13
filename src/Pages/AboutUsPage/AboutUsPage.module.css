@@ -141,7 +141,7 @@
 .containerOfAnimatedImages{
   position: relative;
   animation-name: animationImages;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 #bottomImage{
@@ -165,3 +165,4 @@
   transform: scale(1.2);
 
 }
+
