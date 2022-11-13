@@ -59,7 +59,7 @@
   color: grey;
   opacity: .7;
   font-size: 1.2rem;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .gridItem{
@@ -146,14 +146,16 @@
 }
 #bottomImage{
   position: relative;
-  bottom: 20%;
   transition: transform 2.50s ease;
+  bottom: 31%;
+  left: 0%;
 }
 #topImage {
   transition: transform 2.50s ease;
   position: relative;
-  top: 15%;
+  top: 20%;
   left: 40%;
+  
 }
 #bottomImage:hover{
   transform: scale(1.2);

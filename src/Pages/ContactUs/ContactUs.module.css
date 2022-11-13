@@ -82,6 +82,7 @@
     border-width: 1px;
     border-color: rgba(4, 4, 51, 0.1);
     transition: transform 0.3s ease;
+    background-color: rgba(0, 0, 20, 0.01);
     
 }
 .cardIcon{
@@ -90,7 +91,7 @@
     height: 1.8rem;
     left: 40%;
     border-radius: 25px;
-    background-color:rgba(4, 4, 51, 0.7);
+    background-color:rgba(4, 4, 51, 0.3);
     padding: 1rem;
 }
 .callUs{
