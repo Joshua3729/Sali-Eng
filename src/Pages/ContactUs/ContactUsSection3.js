@@ -89,11 +89,14 @@ import React, { Component } from 'react'
             <label className={classes.formSubtitle}>
               Write your message below
             </label>
-            <input
-              type="text"
+
+            <textarea
               value={this.state.userMessage}
               onChange={this.handleUserMessage}
-            ></input>
+            >
+              {" "}
+            </textarea>
+
 
             <button className={classes.buttonSubmit}>Submit form</button>
           </div>
