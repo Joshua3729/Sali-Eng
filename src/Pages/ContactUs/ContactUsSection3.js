@@ -29,7 +29,7 @@ import React, { Component } from 'react'
 
               <div className={classes.paragraphInForm}>
                 <label className={classes.formSubtitle}>Write your message below</label>
-                <input type="text" value=""></input>
+                <input type="text"  className={classes.text} value=""></input>
 
                 <button className={classes.buttonSubmit}>Submit form</button>
               </div>

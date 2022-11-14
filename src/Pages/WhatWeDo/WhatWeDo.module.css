@@ -14,3 +14,12 @@
     transform: translate(-50%, -50%);
     font-weight: bold;
 }
+
+@keyframes section1Animation {
+    0%   { width:130%;}
+    100% { width:100%;}
+  }
+  .whatwedo{
+    animation-name: section1Animation;
+    animation-duration: 2s;
+  }
