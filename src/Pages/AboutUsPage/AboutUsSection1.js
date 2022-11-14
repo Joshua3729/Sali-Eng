@@ -1,5 +1,4 @@
 import classes from './AboutUsPage.module.css';
-
 import img2 from '../../Components/drawable/img1.jpg';
 function AboutUsSection1() {
   return (
