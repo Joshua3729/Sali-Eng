@@ -1,7 +1,97 @@
-/* .section2 {
-   
-    width: 100%;
-} */
+.retail.space{
+  margin-left: 10%;
+  margin-right: 10% ;
+  color: white;
+  width: 5rem;
+  border-radius: 5px;
+  margin-left: 100px;
+}
+
+.img1{
+  max-width: max-content;
+  height: 50%;
+  border-radius: 4px;
+
+}
+
+.img2{
+  width: 20em;
+  height: 50%;
+  border-radius: 4px;
+
+}
+
+.img3{
+  border-radius: 4px;
+  width: 20em;
+  height: 50%;
+
+ 
+}
+.mySection {
+ 
+  background-color: rgba(0, 0, 20, 0.025);
+}
+.wwdSection {
+  margin-top: 4em;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10% ;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 50%;
+  margin-right: 100%; */
+}
+
+
+.design {
+
+  background-color:white;
+  border-radius: 7px;
+  float: left;
+  padding: 20px;
+  width: 40em;
+  height: 28em;
+  
+}
+.design:hover{
+  transform:scale(1.1);
+  background: rgba(7, 7, 34, 0.025);
+box-shadow: 2px 2px 2px #000;
+}
+.plastic {
+  
+  background-color: white;
+  border-radius:7px;
+  float: center;
+  padding: 20px;
+  width: 40em;
+  height: 28em;
+  
+}
+.plastic:hover{
+  transform:scale(1.1);
+  background: rgba(7, 7, 34, 0.025);
+box-shadow: 2px 2px 2px #000;
+}
+.manufactoring {
+  border-radius: 7px;
+  background-color:white;
+  width: 40em;
+  float: right;
+  padding: 20px;
+  height: 28em;
+  
+}
+
+.manufactoring:hover{
+  transform:scale(1.1);
+  background: rgba(7, 7, 34, 0.025);
+box-shadow: 2px 2px 2px #000;
+}
 
 .whatwedo{
     color: white;
@@ -13,6 +103,20 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: bold;
+}
+.section3w{
+  height: auto;
+}
+.section3wwd{
+
+  width: 100%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.section4wwd{
+  height: auto;
 }
 
 @keyframes section1Animation {
