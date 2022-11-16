@@ -119,6 +119,27 @@ box-shadow: 2px 2px 2px #000;
   height: auto;
 }
 
+.animate{
+  animation-name: section1Animation;
+  animation-duration: 2s;
+}
+.H1div{
+  margin-left: 100px;
+  color: rgb(19, 19, 98);
+}
+.Pdiv{
+  margin-left: 100px;
+}
+ .H4div{
+  margin-left: 100px;
+  width: 16rem;
+  color: #fff;
+  border-radius: 5px;
+  background-color:rgb(23, 23, 81);
+ } 
+.section2wwd{
+  margin-top: 150px;
+}
 @keyframes section1Animation {
     0%   { width:130%;}
     100% { width:100%;}

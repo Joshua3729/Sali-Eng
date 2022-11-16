@@ -1,4 +1,4 @@
-import storage2 from '../../Assets/Images/storage 2.jpeg'
+import storage2 from '../../Assets/Images/storage 3.jpeg'
 
 import classes  from "../WhatWeDo/WhatWeDo.module.css"
 import  Section2 from "../WhatWeDo/section2wwd";
@@ -9,11 +9,12 @@ const WhatWeDo = () => {
     <>
       <div className={classes.mySection}>
       <div className={classes.section1} >
-      <div className={classes.whatwedo}>What We Do</div>
-        <img src={storage2} alt='section 3 image'
+      <div className={classes.whatwedo}>What We Do </div>
+        <img src={storage2} alt='section 3 image' className={classes.animate}
         />
+         <p className={classes.para}></p>
       </div>
-
+     
       <div className={classes.section2wwd}>
         <Section2/>
       </div> 
