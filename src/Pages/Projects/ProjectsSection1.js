@@ -1,6 +1,5 @@
 import classes from "../AboutUsPage/AboutUsPage.module.css";
 import img2 from "../../Components/drawable/img1.jpg";
-
 const ProjectsSection1 = () => {
     return (
       <>

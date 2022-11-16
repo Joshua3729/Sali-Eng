@@ -94,7 +94,7 @@ import React, { Component } from 'react'
               value={this.state.userMessage}
               onChange={this.handleUserMessage}
             >
-              {" "}
+              
             </textarea>
 
 

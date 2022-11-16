@@ -1,0 +1,44 @@
+
+.section{
+    width: 80%;
+    
+}
+
+.stunningProjects{
+    width: fit-content;
+    height: fit-content;
+    padding-inline:5px;
+    background-color: rgb(2, 2, 27,.8);
+    margin-inline: auto;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.stunningProjectsMessage{
+    
+    color: rgb(2, 2, 27, .7);
+    width: 75%;
+    height: fit-content;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-inline: auto;
+    text-align: center;
+    margin-block: 1rem;
+}
+.projectList{
+    display: inline-flex;
+    gap: 1rem;
+    list-style-type: none;
+    /* wrap just in the mean time... ill remove later */
+    flex-wrap: wrap;
+}
+.projectList> li{
+    width: fit-content;
+    height: fit-content;
+}
+.listItem{
+    width: 18rem;
+    border-radius: 3px;
+}

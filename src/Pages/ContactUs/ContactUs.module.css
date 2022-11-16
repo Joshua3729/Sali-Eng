@@ -168,6 +168,7 @@
 .paragraphInForm{
     display:grid;
     width: 100%;
+    contain: content;
    
 }
 .paragraphInForm> textarea{
