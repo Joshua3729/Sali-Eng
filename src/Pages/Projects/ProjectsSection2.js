@@ -8,40 +8,31 @@ import img5 from "../../Components/drawable/img4.jpg";
 import img6 from "../../Components/drawable/img5.jpg";
 import img7 from "../../Components/drawable/img6.jpg";
 import img8 from "../../Components/drawable/img7.jpg";
-
-// let slideIndex = 1;
-// showDivs(slideIndex);
-
-// const showDivs = (n) => {
-
-//   let i;
-//   let x = document.getElementsByClassName("mySlides");
-//   let dots = document.getElementsByClassName("demo");
-//   if (n > x.length) {
-//     slideIndex = 1;
-//   }
-//   if (n < 1) {
-//     slideIndex = x.length;
-//   }
-//   for (i = 0; i < x.length; i++) {
-//     x[i].style.display = "none";
-//   }
-//   for (i = 0; i < dots.length; i++) {
-//     dots[i].className = dots[i].className.replace(" w3-white", "");
-//   }
-//   x[slideIndex - 1].style.display = "block";
-//   dots[slideIndex - 1].className += " w3-white";
-  
-// }
-
-// const currentDiv = (n) => {
-//   showDivs((slideIndex = n));
-// }
-// const plusDivs = (n) => {
-//   showDivs((slideIndex += n));
-// }
+import ImageSlider from './ImageSlider/ImageSlider';
 
 
+{/* <div className={classes.projectList}>
+  <img src={img1} alt="list item" className={classes.listItem} />
+  <img src={img2} alt="list item" className={classes.listItem} />
+  <img src={img3} alt="list item" className={classes.listItem} />
+  <img src={img4} alt="list item" className={classes.listItem} />
+  <img src={img5} alt="list item" className={classes.listItem} />
+  <img src={img6} alt="list item" className={classes.listItem} />
+  <img src={img7} alt="list item" className={classes.listItem} />
+  <img src={img8} alt="list item" className={classes.listItem} />
+  <img src={img8} alt="list item" className={classes.listItem} />
+</div>; */}
+
+const slides = [
+  { image:  img1 , title: "mytitle" },
+  { image:  img2 , title: "mytitle" },
+  { image:  img3 , title: "mytitle" },
+  { image:  img4 , title: "mytitle" },
+  { image: img5 , title: "mytitle" },
+  { image:  img6 , title: "mytitle" },
+  { image:  img7 , title: "mytitle" },
+  { image:  img8 , title: "mytitle" }
+];
 const ProjectsSection2 = () => {
   return (
     <>
@@ -50,35 +41,10 @@ const ProjectsSection2 = () => {
         We envisage your project in order to execute it. We work in multiple
         sectors and are experts in…
       </div>
-      <ul className={classes.projectList}>
-        <li>
-          <img src={img1} alt="list item" className={classes.listItem} />
-        </li>
-        <li>
-          <img src={img2} alt="list item" className={classes.listItem} />
-        </li>
-        <li>
-          <img src={img3} alt="list item" className={classes.listItem} />
-        </li>
-        <li>
-          <img src={img4} alt="list item" className={classes.listItem} />
-        </li>
-        <li>
-          <img src={img5} alt="list item" className={classes.listItem} />
-        </li>
-        <li>
-          <img src={img6} alt="list item" className={classes.listItem} />
-        </li>
-        <li>
-          <img src={img7} alt="list item" className={classes.listItem} />
-        </li>
-        <li>
-          <img src={img8} alt="list item" className={classes.listItem} />
-        </li>
-        <li>
-          <img src={img8} alt="list item" className={classes.listItem} />
-        </li>
-      </ul>
+
+      <div>
+        <ImageSlider slides={slides} />
+      </div>
     </>
   );
 }
