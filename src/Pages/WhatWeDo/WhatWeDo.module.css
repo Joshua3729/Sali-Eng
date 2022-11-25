@@ -1,35 +1,32 @@
-.retail.space{
-  margin-left: 10%;
-  margin-right: 10% ;
-  color: white;
-  width: 5rem;
-  border-radius: 5px;
-  margin-left: 100px;
+.retail_space {
+  /* background-color: red; */
 }
 
-.img1{
+.cards_gridWrapper {
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.img1 {
   max-width: max-content;
   height: 50%;
   border-radius: 4px;
-
 }
 
-.img2{
+.img2 {
   width: 20em;
   height: 50%;
   border-radius: 4px;
-
 }
 
-.img3{
+.img3 {
   border-radius: 4px;
   width: 20em;
   height: 50%;
-
- 
 }
 .mySection {
- 
   background-color: rgba(0, 0, 20, 0.025);
 }
 .wwdSection {
@@ -39,112 +36,120 @@
   gap: 1rem;
   justify-content: space-between;
   margin-left: 10%;
-  margin-right: 10% ;
+  margin-right: 10%;
   justify-content: center;
   align-items: center;
   /* margin-left: 50%;
   margin-right: 100%; */
 }
 
-
 .design {
-
-  background-color:white;
+  background-color: white;
   border-radius: 7px;
   float: left;
-  padding: 20px;
   width: 40em;
   height: 28em;
-  
+  padding: 20px;
 }
-.design:hover{
-  transform:scale(1.1);
+.text_wrapper {
+  padding: 20px;
+}
+
+.design:hover {
+  transform: scale(1.1);
   background: rgba(7, 7, 34, 0.025);
-box-shadow: 2px 2px 2px #000;
+  box-shadow: 2px 2px 2px #000;
 }
 .plastic {
-  
   background-color: white;
-  border-radius:7px;
+  border-radius: 7px;
   float: center;
-  padding: 20px;
   width: 40em;
   height: 28em;
-  
 }
-.plastic:hover{
-  transform:scale(1.1);
+.plastic:hover {
+  transform: scale(1.1);
   background: rgba(7, 7, 34, 0.025);
-box-shadow: 2px 2px 2px #000;
+  box-shadow: 2px 2px 2px #000;
 }
 .manufactoring {
   border-radius: 7px;
-  background-color:white;
+  background-color: white;
   width: 40em;
   float: right;
-  padding: 20px;
   height: 28em;
-  
 }
 
-.manufactoring:hover{
-  transform:scale(1.1);
+.manufactoring:hover {
+  transform: scale(1.1);
   background: rgba(7, 7, 34, 0.025);
-box-shadow: 2px 2px 2px #000;
+  box-shadow: 2px 2px 2px #000;
 }
 
-.whatwedo{
-    color: white;
-    backface-visibility: hidden;
-    font-size: 2rem;
-    color:white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
+.whatwedo {
+  color: white;
+  backface-visibility: hidden;
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
 }
-.section3w{
+.section3w {
   height: auto;
 }
-.section3wwd{
-
+.section3wwd {
   width: 100%;
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
-.section4wwd{
+.section4wwd {
   height: auto;
 }
-
-.animate{
-  animation-name: section1Animation;
-  animation-duration: 2s;
+.section_image {
 }
-.H1div{
-  margin-left: 100px;
+.H1div {
   color: rgb(19, 19, 98);
 }
-.Pdiv{
-  margin-left: 100px;
+.Pdiv {
 }
- .H4div{
-  margin-left: 100px;
+.H4div {
   width: 16rem;
   color: #fff;
   border-radius: 5px;
-  background-color:rgb(23, 23, 81);
- } 
-.section2wwd{
+  background-color: rgb(23, 23, 81);
+}
+.section2wwd {
   margin-top: 150px;
 }
-@keyframes section1Animation {
-    0%   { width:130%;}
-    100% { width:100%;}
-  }
-  .whatwedo{
-    animation-name: section1Animation;
-    animation-duration: 2s;
-  }
+
+.whatwedo {
+  animation-name: section1Animation;
+  animation-duration: 2s;
+}
+.section_2 {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.section_img_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.whatwedo_hero {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
