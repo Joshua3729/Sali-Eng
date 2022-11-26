@@ -7,6 +7,7 @@ import clothingrack1 from "../../Assets/Images/clothingrack1.jpeg";
 import clothingrack2 from "../../Assets/Images/clothingrack2.jpeg";
 
 import desk from "../../Assets/Images/desk.jpeg";
+import TextAnimation from "../../Pages/LandingPage/Components/TextAnimation";
 
 const Hero = () => {
   const [tab, setTab] = useState(0);
@@ -28,9 +29,13 @@ const Hero = () => {
     <div className={classes.Hero}>
       <SlideShow images={images} tab={tab} setTab={setTab} />
       <div className={classes.callToAction}>
-        <h1 className={classes.CTA_Header}>
+        {/* <h1 className={classes.CTA_Header}>
           Your One Stop Shop For Retail Solutions. Come Work With Us
-        </h1>
+        </h1> */}
+        <TextAnimation
+          text={" Your One Stop Shop For Retail Solutions. Come Work With Us"}
+          header={true}
+        />
         <p className={classes.secondaryHeader}>
           Lorem ipsum dolor sit amet. Est velit facere sit voluptas molestiae et
           suscipit officiis hic nostrum velit? A esse ipsam vel ratione deserunt
