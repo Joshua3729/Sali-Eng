@@ -14,18 +14,6 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-
-{/* <div className={classes.projectList}>
-  <img src={img1} alt="list item" className={classes.listItem} />
-  <img src={img2} alt="list item" className={classes.listItem} />
-  <img src={img3} alt="list item" className={classes.listItem} />
-  <img src={img4} alt="list item" className={classes.listItem} />
-  <img src={img5} alt="list item" className={classes.listItem} />
-  <img src={img6} alt="list item" className={classes.listItem} />
-  <img src={img7} alt="list item" className={classes.listItem} />
-  <img src={img8} alt="list item" className={classes.listItem} />
-  <img src={img8} alt="list item" className={classes.listItem} />
-</div>; */}
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -64,6 +52,7 @@ const ProjectsSection2 = () => {
           showDots={true}
           // // responsive={responsive}
           arrows={false}
+          renderDotsOutside={false}
           // ssr={true} // means to render carousel on server-side.
           infinite={true}
           // autoPlay={this.props.deviceType !== "mobile" ? true : false}
@@ -90,7 +79,7 @@ const ProjectsSection2 = () => {
             <img src={img4} className={classes.listItem} alt="list item" />
           </div>
           <div>
-            <img src={img5} className={classes.listItem} alt="list item" />
+            <img src={img6} className={classes.listItem} alt="list item" />
           </div>
           <div>
             <img src={img6} className={classes.listItem} alt="list item" />

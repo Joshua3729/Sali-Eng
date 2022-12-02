@@ -44,6 +44,7 @@
 .listItem{
     border-radius: 3px;
     width: 16rem;
+    margin-bottom: .7rem;
 }
 .dotStyle{
     border-style: solid;
