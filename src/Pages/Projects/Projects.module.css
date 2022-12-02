@@ -4,6 +4,12 @@
     
 }
 
+.text1{
+    border: 2px solid red;
+    width: fit-content;
+    height: fit-content;
+}
+
 .stunningProjects{
     width: fit-content;
     height: fit-content;
