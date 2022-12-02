@@ -44,7 +44,7 @@
 .listItem{
     border-radius: 3px;
     width: 16rem;
-    margin-bottom: .7rem;
+    margin-bottom: 1rem;
 }
 .dotStyle{
     border-style: solid;
@@ -73,4 +73,17 @@
     display: flex;
     margin-block: 5rem;
     margin-top: 1rem;
+}
+.headingForRows{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    height: fit-content;
+    font-weight: bold;
+    color:rgb(2, 2, 27) ;
+    margin-top: 1rem;
+}
+.carouselContainer{
+  margin-bottom: 6rem;
 }

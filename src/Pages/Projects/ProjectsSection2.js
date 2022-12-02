@@ -44,7 +44,7 @@ const ProjectsSection2 = () => {
         sectors and are experts in…
       </div>
 
-      <div>
+      <div className={classes.carouselContainer}>
         <Carousel
           responsive={responsive}
           swipeable={false}
@@ -91,7 +91,120 @@ const ProjectsSection2 = () => {
             <img src={img8} className={classes.listItem} alt="list item" />
           </div>
         </Carousel>
-        ;
+        ;<div className={classes.headingForRows}>Freestanding display</div>
+      </div>
+      <div className={classes.carouselContainer}>
+        <Carousel
+          responsive={responsive}
+          swipeable={false}
+          draggable={false}
+          showDots={true}
+          arrows={false}
+          renderDotsOutside={false}
+          infinite={true}
+        >
+          <div>
+            <img src={img1} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img2} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img3} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img4} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img7} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img8} className={classes.listItem} alt="list item" />
+          </div>
+        </Carousel>
+        <div className={classes.headingForRows}>Signage</div>
+      </div>
+
+      <div className={classes.carouselContainer}>
+        <Carousel
+          responsive={responsive}
+          swipeable={false}
+          draggable={false}
+          showDots={true}
+          arrows={false}
+          renderDotsOutside={false}
+          infinite={true}
+        >
+          <div>
+            <img src={img1} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img2} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img3} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img4} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img7} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img8} className={classes.listItem} alt="list item" />
+          </div>
+        </Carousel>
+        <div className={classes.headingForRows}>Counter Top Displays</div>
+      </div>
+
+      <div className={classes.carouselContainer}>
+        <Carousel
+          responsive={responsive}
+          swipeable={false}
+          draggable={false}
+          showDots={true}
+          arrows={false}
+          renderDotsOutside={false}
+          infinite={true}
+        >
+          <div>
+            <img src={img1} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img2} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img3} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img4} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img7} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img8} className={classes.listItem} alt="list item" />
+          </div>
+        </Carousel>
+        <div className={classes.headingForRows}>Custom project</div>
       </div>
     </>
   );
