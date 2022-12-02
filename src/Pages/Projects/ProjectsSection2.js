@@ -11,6 +11,9 @@ import img8 from "../../Components/drawable/img7.jpg";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 
 {/* <div className={classes.projectList}>
   <img src={img1} alt="list item" className={classes.listItem} />
@@ -23,23 +26,26 @@ import "react-alice-carousel/lib/alice-carousel.css";
   <img src={img8} alt="list item" className={classes.listItem} />
   <img src={img8} alt="list item" className={classes.listItem} />
 </div>; */}
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
-const slides = [
-  { key: 0, image: img1, title: "mytitle" },
-  { key: 1, image: img2, title: "mytitle" },
-  { key: 2, image: img3, title: "mytitle" },
-  { key: 3, image: img4, title: "mytitle" },
-  { key: 4, image: img5, title: "mytitle" },
-  { key: 5, image: img6, title: "mytitle" },
-  { key: 6, image: img7, title: "mytitle" },
-  { key: 7, image: img8, title: "mytitle" },
-];
-const handleDragStart = (e) => e.preventDefault();
-const items = [
-  <img src={img1} onDragStart={handleDragStart} role="presentation" />,
-  <img src={img2} onDragStart={handleDragStart} role="presentation" />,
-  <img src={img3} onDragStart={handleDragStart} role="presentation" />,
-];
 
 const ProjectsSection2 = () => {
   return (
@@ -51,19 +57,52 @@ const ProjectsSection2 = () => {
       </div>
 
       <div>
-        {/* <AliceCarousel>
-          {slides.map((image) => (
-            <div key={image.key} className={classes.text1}>
-              {<img src={image.image} className={classes.listItem} />}
-            </div>
-          ))}
-        </AliceCarousel> */}
-
-        <AliceCarousel
-          onDragStart={handleDragStart}
-          role="presentation"
-          items={items}
-        />
+        <Carousel
+          responsive={responsive}
+          swipeable={false}
+          draggable={false}
+          showDots={true}
+          // // responsive={responsive}
+          arrows={false}
+          // ssr={true} // means to render carousel on server-side.
+          infinite={true}
+          // autoPlay={this.props.deviceType !== "mobile" ? true : false}
+          // autoPlaySpeed={1000}
+          // keyBoardControl={true}
+          // customTransition="all .5"
+          // transitionDuration={500}
+          // containerClass="carousel-container"
+          // removeArrowOnDeviceType={["tablet", "mobile"]}
+          //deviceType={this.props.deviceType}
+          // dotListClass="custom-dot-list-style"
+          // itemClass="carousel-item-padding-40-px"
+        >
+          <div>
+            <img src={img1} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img2} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img3} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img4} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img5} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img7} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img8} className={classes.listItem} alt="list item" />
+          </div>
+        </Carousel>
+        ;
       </div>
     </>
   );
