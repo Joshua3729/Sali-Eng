@@ -87,7 +87,6 @@
 .gridItemImg{
   width: 180px;
   height: 200px;
-  opacity: .8;
   margin: auto;
   margin-top: 0px;
   
@@ -111,8 +110,8 @@
   padding: 0px;
 }
 
-.backgroundForAll{
-  background-color: rgba(0, 0, 20, 0.025);
+.backgroundForAll{  
+  background-color: white;
 }
 .floatingImages{
   width: 20rem;

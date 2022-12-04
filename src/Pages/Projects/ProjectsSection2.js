@@ -8,31 +8,33 @@ import img5 from "../../Components/drawable/img4.jpg";
 import img6 from "../../Components/drawable/img5.jpg";
 import img7 from "../../Components/drawable/img6.jpg";
 import img8 from "../../Components/drawable/img7.jpg";
-import ImageSlider from './ImageSlider/ImageSlider';
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
+
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
 
-{/* <div className={classes.projectList}>
-  <img src={img1} alt="list item" className={classes.listItem} />
-  <img src={img2} alt="list item" className={classes.listItem} />
-  <img src={img3} alt="list item" className={classes.listItem} />
-  <img src={img4} alt="list item" className={classes.listItem} />
-  <img src={img5} alt="list item" className={classes.listItem} />
-  <img src={img6} alt="list item" className={classes.listItem} />
-  <img src={img7} alt="list item" className={classes.listItem} />
-  <img src={img8} alt="list item" className={classes.listItem} />
-  <img src={img8} alt="list item" className={classes.listItem} />
-</div>; */}
-
-const slides = [
-  { image:  img1 , title: "mytitle" },
-  { image:  img2 , title: "mytitle" },
-  { image:  img3 , title: "mytitle" },
-  { image:  img4 , title: "mytitle" },
-  { image: img5 , title: "mytitle" },
-  { image:  img6 , title: "mytitle" },
-  { image:  img7 , title: "mytitle" },
-  { image:  img8 , title: "mytitle" }
-];
 const ProjectsSection2 = () => {
   return (
     <>
@@ -42,11 +44,169 @@ const ProjectsSection2 = () => {
         sectors and are experts in…
       </div>
 
-      <div>
-        <ImageSlider slides={slides} />
+      <div className={classes.carouselContainer}>
+        <Carousel
+          responsive={responsive}
+          swipeable={false}
+          draggable={false}
+          showDots={true}
+          // // responsive={responsive}
+          arrows={false}
+          renderDotsOutside={false}
+          // ssr={true} // means to render carousel on server-side.
+          infinite={true}
+          // autoPlay={this.props.deviceType !== "mobile" ? true : false}
+          // autoPlaySpeed={1000}
+          // keyBoardControl={true}
+          // customTransition="all .5"
+          // transitionDuration={500}
+          // containerClass="carousel-container"
+          // removeArrowOnDeviceType={["tablet", "mobile"]}
+          //deviceType={this.props.deviceType}
+          // dotListClass="custom-dot-list-style"
+          // itemClass="carousel-item-padding-40-px"
+        >
+          <div>
+            <img src={img1} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img2} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img3} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img4} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img7} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img8} className={classes.listItem} alt="list item" />
+          </div>
+        </Carousel>
+        ;<div className={classes.headingForRows}>Freestanding display</div>
+      </div>
+      <div className={classes.carouselContainer}>
+        <Carousel
+          responsive={responsive}
+          swipeable={false}
+          draggable={false}
+          showDots={true}
+          arrows={false}
+          renderDotsOutside={false}
+          infinite={true}
+        >
+          <div>
+            <img src={img1} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img2} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img3} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img4} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img7} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img8} className={classes.listItem} alt="list item" />
+          </div>
+        </Carousel>
+        <div className={classes.headingForRows}>Signage</div>
+      </div>
+
+      <div className={classes.carouselContainer}>
+        <Carousel
+          responsive={responsive}
+          swipeable={false}
+          draggable={false}
+          showDots={true}
+          arrows={false}
+          renderDotsOutside={false}
+          infinite={true}
+        >
+          <div>
+            <img src={img1} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img2} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img3} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img4} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img7} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img8} className={classes.listItem} alt="list item" />
+          </div>
+        </Carousel>
+        <div className={classes.headingForRows}>Counter Top Displays</div>
+      </div>
+
+      <div className={classes.carouselContainer}>
+        <Carousel
+          responsive={responsive}
+          swipeable={false}
+          draggable={false}
+          showDots={true}
+          arrows={false}
+          renderDotsOutside={false}
+          infinite={true}
+        >
+          <div>
+            <img src={img1} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img2} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img3} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img4} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img6} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img7} className={classes.listItem} alt="list item" />
+          </div>
+          <div>
+            <img src={img8} className={classes.listItem} alt="list item" />
+          </div>
+        </Carousel>
+        <div className={classes.headingForRows}>Custom project</div>
       </div>
     </>
   );
 }
-
 export default ProjectsSection2
