@@ -6,6 +6,7 @@ import image3 from "../../Assets/Images/desk.jpeg";
 const section2wwd = () => {
   return (
     <>
+    
       <div className={classes.retail.space}>
         <h4 className={classes.H4div}>Innovating The Retail Space</h4>
          <h1  className={classes.H1div}>We provide high quality services</h1>
