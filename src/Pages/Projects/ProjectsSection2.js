@@ -8,8 +8,6 @@ import img5 from "../../Components/drawable/img4.jpg";
 import img6 from "../../Components/drawable/img5.jpg";
 import img7 from "../../Components/drawable/img6.jpg";
 import img8 from "../../Components/drawable/img7.jpg";
-import AliceCarousel from "react-alice-carousel";
-import "react-alice-carousel/lib/alice-carousel.css";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
