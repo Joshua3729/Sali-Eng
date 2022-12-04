@@ -1,7 +1,6 @@
 
 .section{
-    width: 80%;
-    
+    width: 80%;  
 }
 
 .text1{
@@ -53,13 +52,10 @@
     border-radius: 6px;
     width: 10px;
     height: 10px;
-    margin-left:.5rem ;
-    
-  
+    margin-left:.5rem ;  
 }
 .dotStyle:hover{
     background-color: rgba(70, 131, 180, 0.7);
-
 }
 .imageSliderContainer{
     display: grid;
@@ -91,36 +87,33 @@
 
 /* section 3  */
 .projectsSection3{
-    background: linear-gradient(135deg,rgb(2, 2, 27),rgb(2, 2, 27),white);
+    background: linear-gradient(135deg,rgb(2, 2, 27),white);
     height: fit-content;
     width: 100%;
     
 
 }
 .section{
+    text-align: center;
     margin-inline: auto;
-    border: 2px solid red;
     width: 80%;
     display: grid;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 54.5% 44.5%;
     color: white;
-    padding-block: 3rem;
+    padding-block: 7rem;
+    justify-content: center;
 }
 
 .message{
-    border: 2px solid yellow;
 }
 .form{
     background-color: white;
     height: fit-content;
     width: 100%;
-    border: 2px solid green;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 5px;
 }
-.form > form {
-    
-    border: 2px solid red;
 
-}
 .buttonSubmit{
     margin-top: 1rem;
     font-size: 1rem;
@@ -135,12 +128,10 @@
     opacity: .8;
 }
 .input:focus{
-    border-width: 0px;
     outline: none;
 }
 
 .paragraphInForm> textarea:focus{
-    border-width: 0;
     outline: none;
 }
 .paragraphInForm{
@@ -155,16 +146,16 @@
 }
 .paragraphInForm> textarea{
     height: 7rem;
-    border-width: 0;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(2, 2, 27, 0.025);
     color: grey;
     font-size: 1rem;
     text-align: start;
     word-wrap: break-word;
     word-break: break-all;
-    border: 2px solid red;
     margin-inline: 5px;
+    outline: none;
+
 
     
 }
@@ -180,16 +171,14 @@
 }
 
 .input{
-    height: 2.5rem;
+    height: 2rem;
     border-width: 0;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(2, 2, 27, 0.025);
     color: grey;
     font-size: 1rem;
-    border: 2px solid red;
     width: 14rem;
     color: black;
-    
 }
 .formSubtitle{
     text-align: start;
@@ -197,11 +186,62 @@
     opacity: .7;
     font-size: 1.15rem;
     margin-top: .7rem;
-    
 }
 .formTitle{
     color:rgb(2, 2, 27);
     font-weight: bold;
     opacity: .8;
     font-size: 2rem;
+}
+.deals{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 2rem;
+    font-size: .8rem;
+    font-weight: bold;
+    width: fit-content;
+    padding-inline: .2rem;
+    background-color: rgba(2, 2, 27, 0.1);
+    border-radius: 19px;
+    margin-top: 5rem;
+    padding-bottom: 0px;
+    border: 2px solid pink;
+    margin-block: auto;
+   
+}
+.exclusive{
+    border: 2px solid red;
+    background-color: rgb(105, 212, 177);
+    padding-inline: 1rem;
+    margin-inline: .2rem;
+    border-radius: 17px;
+    padding-block: .3rem;
+}
+.innerGrid{
+    width: 90%;
+    text-align: start;
+    display:grid;
+    gap: 1rem;
+    justify-content: start;
+    border: 2px solid red;
+    
+}
+
+.subjectLine{
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.storyLine{
+    font-size: 1.25rem;
+}
+.moreInfoButton{
+    background-color: white;
+    color: black;
+    padding: .3rem;
+}
+.moreInfoButton:hover{
+    background-color: black;
+    color: white;
 }
