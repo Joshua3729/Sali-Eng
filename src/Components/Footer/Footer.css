@@ -1,11 +1,12 @@
 .Footer{
-    height: 65vh;
+    height: 70vh;
     background-image: url('../../Assets/Images/Kitchen.jpeg');
+    background-size: 100%;
 }
 
 .innerDiv{
    height: 100%;
-   background-color: rgba(2, 2, 27, .9);
+   background: linear-gradient(90deg,rgba(2, 2, 27, .95),rgba(2, 2, 27, .95),rgba(2, 2, 27, .6));
    color: white;
    text-align: center;
    font-weight: bold;
