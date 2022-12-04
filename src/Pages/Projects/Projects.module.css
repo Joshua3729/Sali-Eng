@@ -113,6 +113,7 @@
     width: 100%;
     box-shadow: 1px 1px 5px black;
     border-radius: 5px;
+    padding: .5rem;
 }
 
 .buttonSubmit{
