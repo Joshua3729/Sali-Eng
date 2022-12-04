@@ -105,6 +105,8 @@
 }
 
 .message{
+    border: 1px solid red;
+    padding-top: 5rem;
 }
 .form{
     background-color: white;
@@ -192,31 +194,27 @@
     font-weight: bold;
     opacity: .8;
     font-size: 2rem;
+    
 }
 .deals{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 2rem;
+    padding: .6rem;
+    padding-left:.2rem;
     font-size: .8rem;
     font-weight: bold;
     width: fit-content;
-    padding-inline: .2rem;
     background-color: rgba(2, 2, 27, 0.1);
     border-radius: 19px;
-    margin-top: 5rem;
-    padding-bottom: 0px;
-    border: 2px solid pink;
-    margin-block: auto;
    
 }
+.deals> span{
+    margin-block: auto;
+}
 .exclusive{
-    border: 2px solid red;
+    
     background-color: rgb(105, 212, 177);
-    padding-inline: 1rem;
-    margin-inline: .2rem;
     border-radius: 17px;
-    padding-block: .3rem;
+    padding: 4px;
+    
 }
 .innerGrid{
     width: 90%;
@@ -224,8 +222,6 @@
     display:grid;
     gap: 1rem;
     justify-content: start;
-    border: 2px solid red;
-    
 }
 
 .subjectLine{
@@ -240,6 +236,7 @@
     background-color: white;
     color: black;
     padding: .3rem;
+    border: 2px solid black;
 }
 .moreInfoButton:hover{
     background-color: black;

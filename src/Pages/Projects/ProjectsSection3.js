@@ -43,13 +43,12 @@ export default class ProjectsSection3 extends Component {
           <div className={classes.section}>
             <div className={classes.message}>
               <div className={classes.deals}>
-                <div className={classes.exclusive}>Exclusive Deals </div>
+                <span className={classes.exclusive}>Exclusive Deals </span>
 
-                <div>
+                <span>
                   Find out more about how we can help you with your branded.
-                </div>
+                </span>
               </div>
-
               <div className={classes.innerGrid}>
                 <div className={classes.subjectLine}>Looking After..! The Details And The Planet </div>
                 <div className={classes.storyLine}>
@@ -69,7 +68,7 @@ export default class ProjectsSection3 extends Component {
 
             <div className={classes.form}>
               <form className={classes.contactUsForm}>
-                <div className={classes.formTitle}>Get In Touch </div>
+                <div className={classes.formTitle}>Get In Touch</div>
                 <div className={classes.formSubtitle}>
                   Contact us today and our friendly support team will reach out
                   as soon as possible.
