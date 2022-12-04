@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 // import classes from '../ContactUs/ContactUs.module.css';
 import classes from './Projects.module.css';
+import Typewriter from "typewriter-effect";
 export default class ProjectsSection3 extends Component {
     constructor(props) {
         super(props)
@@ -50,7 +51,9 @@ export default class ProjectsSection3 extends Component {
                 </span>
               </div>
               <div className={classes.innerGrid}>
-                <div className={classes.subjectLine}>Looking After..! The Details And The Planet </div>
+                <div className={classes.subjectLine}>
+                  Looking After..! The Details And The Planet{" "}
+                </div>
                 <div className={classes.storyLine}>
                   Rochelle Retail Solutions is able to provide a eco-friendly
                   solution and advice on the Green alternatives for your
@@ -58,15 +61,23 @@ export default class ProjectsSection3 extends Component {
                   Re-worked after each production process.
                 </div>
                 <div>
-                  <label  className={classes.moreInfoButton}>
-                    email  us for information.
+                  <label className={classes.moreInfoButton}>
+                    email us for information.
                   </label>
                 </div>
-
               </div>
             </div>
 
             <div className={classes.form}>
+              <div className={classes.animationForm}>
+                <Typewriter
+                  options={{
+                    strings: ["Explore our","career opportunities","with our featured"],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </div>
               <form className={classes.contactUsForm}>
                 <div className={classes.formTitle}>Get In Touch</div>
                 <div className={classes.formSubtitle}>

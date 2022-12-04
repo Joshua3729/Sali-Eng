@@ -248,3 +248,14 @@
     background-color: black;
     color: white;
 }
+.triangle {
+    width:0; 
+    border-bottom:120px solid red; 
+    border-left:60px solid white; 
+    border-right:60px solid white;
+}
+.animationForm{
+    color: black;
+    font-weight: bold;
+    padding: 1rem;
+}
