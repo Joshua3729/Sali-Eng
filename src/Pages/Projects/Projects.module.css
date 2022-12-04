@@ -156,6 +156,12 @@
     word-break: break-all;
     margin-inline: 5px;
     outline: none;
+    resize: none;
+    border: none;
+    overflow: auto;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 
 
     
