@@ -1,0 +1,19 @@
+.SuppliersSection {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: red;
+}
+.SuppliersSection_title {
+  width: auto;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
+}
+.title_wrapper {
+  text-align: center;
+}

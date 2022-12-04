@@ -10,6 +10,7 @@ import Typed from "react-typed";
 import Section2 from "./Section/Section2";
 import TextAnimation from "./Components/TextAnimation";
 import EaseInComponent from "./Components/EaseInComponent/EaseInComponent";
+import SuppliersSection from "./Section/SuppliersSection";
 
 const LandingPage = () => {
   const { ref, inView } = useInView({ threshold: 0.3, triggerOnce: true });
@@ -114,6 +115,7 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
+        <SuppliersSection />
         <div className={classes.contact_section}>
           <div
             className={[classes.innerWraper, classes.contact_grid].join(" ")}

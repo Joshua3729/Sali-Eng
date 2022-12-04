@@ -121,32 +121,14 @@
   line-height: 1.1;
   margin-bottom: 15px;
 }
-.parrallex_text {
-  width: 700px;
-  color: white;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
+
 .secondary_header {
   color: white;
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 20px;
 }
-.view_projects_btn {
-  width: 220px;
-  padding: 15px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 20px;
-  font-weight: 700;
-  color: white;
-  background: linear-gradient(to right, #181b29, #6c7586);
-  -moz-box-shadow: 0 0 3px #ccc;
-  -webkit-box-shadow: 0 0 3px #ccc;
-  box-shadow: 0 0 3px #ccc;
-  transition: all 0.2s;
-}
+
 
 .contact_section {
   background-image: linear-gradient(

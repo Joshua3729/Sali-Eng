@@ -1,0 +1,21 @@
+.slide {
+  display: inline-block;
+  width: calc(1140px / 5);
+  height: 200px;
+  background-color: aqua;
+  margin-right: 20px;
+}
+.slide:last-child {
+  margin-right: 0;
+}
+.slideshow {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1140px;
+  height: 200px;
+  overflow: hidden;
+}
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
