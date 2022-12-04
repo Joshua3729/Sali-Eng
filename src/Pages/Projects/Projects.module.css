@@ -87,3 +87,121 @@
 .carouselContainer{
   margin-bottom: 6rem;
 }
+
+
+/* section 3  */
+.projectsSection3{
+    background: linear-gradient(135deg,rgb(2, 2, 27),rgb(2, 2, 27),white);
+    height: fit-content;
+    width: 100%;
+    
+
+}
+.section{
+    margin-inline: auto;
+    border: 2px solid red;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    color: white;
+    padding-block: 3rem;
+}
+
+.message{
+    border: 2px solid yellow;
+}
+.form{
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+    border: 2px solid green;
+}
+.form > form {
+    
+    border: 2px solid red;
+
+}
+.buttonSubmit{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color:white;
+    background:linear-gradient(90deg,rgba(2, 2, 27, 0.9),rgba(2, 2, 27, .9),rgba(2, 2, 27, .7)) ;
+    padding: 1rem;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 5px;
+}
+.buttonSubmit:hover{
+    opacity: .8;
+}
+.input:focus{
+    border-width: 0px;
+    outline: none;
+}
+
+.paragraphInForm> textarea:focus{
+    border-width: 0;
+    outline: none;
+}
+.paragraphInForm{
+    display:grid;
+    width: 100%;
+    contain: content;
+   
+}
+.paragraphInForm > label {
+    margin-inline: 5px;
+    
+}
+.paragraphInForm> textarea{
+    height: 7rem;
+    border-width: 0;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: grey;
+    font-size: 1rem;
+    text-align: start;
+    word-wrap: break-word;
+    word-break: break-all;
+    border: 2px solid red;
+    margin-inline: 5px;
+
+    
+}
+.formContent{
+    display: grid;
+    width: 48%;
+    margin-left: .3rem;
+}
+.containerWithinForm{
+    display: flex;
+    gap:.5rem;
+    flex-wrap: wrap;
+}
+
+.input{
+    height: 2.5rem;
+    border-width: 0;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: grey;
+    font-size: 1rem;
+    border: 2px solid red;
+    width: 14rem;
+    color: black;
+    
+}
+.formSubtitle{
+    text-align: start;
+    color: grey;
+    opacity: .7;
+    font-size: 1.15rem;
+    margin-top: .7rem;
+    
+}
+.formTitle{
+    color:rgb(2, 2, 27);
+    font-weight: bold;
+    opacity: .8;
+    font-size: 2rem;
+}
