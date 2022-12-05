@@ -48,21 +48,8 @@ const ProjectsSection2 = () => {
           swipeable={false}
           draggable={false}
           showDots={true}
-          // // responsive={responsive}
           arrows={false}
           renderDotsOutside={false}
-          // ssr={true} // means to render carousel on server-side.
-          infinite={true}
-          // autoPlay={this.props.deviceType !== "mobile" ? true : false}
-          // autoPlaySpeed={1000}
-          // keyBoardControl={true}
-          // customTransition="all .5"
-          // transitionDuration={500}
-          // containerClass="carousel-container"
-          // removeArrowOnDeviceType={["tablet", "mobile"]}
-          //deviceType={this.props.deviceType}
-          // dotListClass="custom-dot-list-style"
-          // itemClass="carousel-item-padding-40-px"
         >
           <div>
             <img src={img1} className={classes.listItem} alt="list item" />
@@ -89,7 +76,7 @@ const ProjectsSection2 = () => {
             <img src={img8} className={classes.listItem} alt="list item" />
           </div>
         </Carousel>
-        ;<div className={classes.headingForRows}>Freestanding display</div>
+        <div className={classes.headingForRows}>Freestanding display</div>
       </div>
       <div className={classes.carouselContainer}>
         <Carousel
