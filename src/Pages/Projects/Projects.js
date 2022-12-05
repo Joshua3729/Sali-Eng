@@ -9,14 +9,14 @@ const Projects = () => {
     <>
       <div className={bgColor.backgroundForAll}>
         <div className={classes.section1_}>
-          <ProjectsSection1 />
+          <ProjectsSection1/>
         </div>
 
         <div className={classes.section}>
-          <ProjectsSection2 />
+          <ProjectsSection2/>
         </div>
         <div>
-          <ProjectsSection3 />
+          <ProjectsSection3/>
         </div>
       </div>
     </>
