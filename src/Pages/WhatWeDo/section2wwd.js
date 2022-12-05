@@ -18,7 +18,7 @@ const section2wwd = () => {
       <div className={classes.cards_gridWrapper}>
         <Card
           img={image1}
-          header_text={"Plastic Manufactoring"}
+          header_text={"Design"}
           card_text={
             "Our Design team cover 2D Design / DTP / 3D design and Rendering as well as Mechanical Design and Engineerin"
           }
@@ -27,14 +27,14 @@ const section2wwd = () => {
           img={image2}
           header_text={"Plastic Manufactoring"}
           card_text={
-            " Our Design team cover 2D Design / DTP / 3D design and Rendering as well as Mechanical Design and Engineerin"
+            " The first acrylic fabrication factory in the Western Cape"
           }
         />
         <Card
           img={image3}
           header_text={"Manufactoring"}
           card_text={
-            "Our Design team cover 2D Design / DTP / 3D design and Rendering as well as Mechanical Design and Engineerin"
+            "Our state of the art CNC systems, allow us the ability to increase productivity without compromised on quality and tolerances."
           }
         />
       </div>
