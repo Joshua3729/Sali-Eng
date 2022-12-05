@@ -166,3 +166,40 @@
 
 }
 
+/* section 5 */
+.AboutUsSection5{
+  height: 40vh;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 1px 1px 30px  1px rgba(128, 128, 128, 0.5);
+  margin-block: 8rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+  
+}
+.establishMessage{
+  background-color: rgba(128, 128, 128, 0.3);
+  width: fit-content;
+  height: fit-content;
+  margin-inline: auto;
+  padding-inline: 5px;
+  border-radius: 5px;
+  font-weight: 500;
+  color: rgb(0, 0, 20,.8);
+ 
+}
+.secondLine{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-inline: auto;
+  width: fit-content;
+  margin-block: 1rem;
+  color: rgb(0, 0, 20,.6);
+  
+}
+.gridView{
+  margin-inline: auto;
+  height: fit-content;
+}
