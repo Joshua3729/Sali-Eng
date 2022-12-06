@@ -1,0 +1,33 @@
+.section_2 {
+  padding: 200px 50px 70px 50px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.grid_wrapper {
+  width: 100%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.card_item {
+  transition: all 1.5s;
+}
+.section_2 .header_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.primary_header {
+  color: #181b29;
+}
+.section_details {
+  width: 400px;
+  color: #54595f;
+}
+.innerWraper {
+  display: block;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}

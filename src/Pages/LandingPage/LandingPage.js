@@ -1,15 +1,16 @@
 import Card from "../../Components/Card/Card";
 import Hero from "../../Components/Hero/Hero";
 import classes from "./LandingPage.module.css";
-import desk from "../../Assets/Images/desk.jpeg";
-import storage from "../../Assets/Images/storage.jpeg";
-import kitchen from "../../Assets/Images/Kitchen.jpeg";
 import StatMeter from "../../Components/StatMeter/StatMeter";
 import SlideShow from "./Components/SlideShow";
 import StatCounter from "../../Components/StatCounter/StatCounter";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import Typed from "react-typed";
+import Section2 from "./Section/Section2";
+import TextAnimation from "./Components/TextAnimation";
+import EaseInComponent from "./Components/EaseInComponent/EaseInComponent";
+import SuppliersSection from "./Section/SuppliersSection";
 
 const LandingPage = () => {
   const { ref, inView } = useInView({ threshold: 0.3, triggerOnce: true });
@@ -37,42 +38,13 @@ const LandingPage = () => {
     <>
       <div className={classes.LandingPage}>
         <Hero />
-        <div className={classes.section_2}>
-          <div className={classes.innerWraper}>
-            <div className={classes.header_wrapper}>
-              <h1 className={classes.primary_header}>Our Services</h1>
-              <div className={classes.section_details}>
-                <p>
-                  We believe in serving you by providing affordable, smart and
-                  exective class retail solutions with the help of our
-                  well-trained engineers
-                </p>
-              </div>
-            </div>
-            <div className={classes.grid_wrapper}>
-              <Card
-                image={desk}
-                header={"Office Equipment"}
-                details={"Get State Of The Art Office Equipment At Low Prices"}
-              />
-              <Card
-                image={storage}
-                header={"Retail Garmet Wardrobes"}
-                details={"We Build Industrial Retail Wardrobe."}
-              />
-              <Card
-                image={kitchen}
-                header={"Large Kitchen Cupboards"}
-                details={"We Also Build State Of The A Kitchen Equipment"}
-              />
-            </div>
-          </div>
-        </div>
+        <Section2 />
         <div className={classes.parallex_section}>
           <div className={classes.parallex_innerWrapper}>
             <h1 className={classes.parallex_header}>
               Sali Eng Muti-level manufacturing
             </h1>
+
             <h3 className={classes.secondary_header}>
               <Typed
                 strings={[
@@ -85,17 +57,15 @@ const LandingPage = () => {
                 loop
               />
             </h3>
-            <p className={classes.parrallex_text}>
-              Est tempora consequatur ut harum quam ut consequuntur nemo? Ea
-              quia exercitationem ut deserunt voluptatum et rerum necessitatibus
-              a sint Quis nam accusantium iste 33 nihil nulla. Qui quidem illum
-              ea earum repudiandae in ullam voluptatem. Ea voluptatem labore ab
-              earum delectus et commodi maxime 33 labore cupiditate quo corrupti
-              tempora cum perspiciatis deserunt ut magnam galisum!
-            </p>
-            <button className={classes.view_projects_btn}>
-              See Our Projects
-            </button>
+
+            <EaseInComponent
+              type={"paragraph"}
+              text={
+                "Est tempora consequatur ut harum quam ut consequuntur nemo? Ea quia exercitationem ut deserunt voluptatum et rerum necessitatibus a sint Quis nam accusantium iste 33 nihil nulla. Qui quidem illum ea earum repudiandae in ullam voluptatem. Ea voluptatem labore ab earum delectus et commodi maxime 33 labore cupiditate quo corrupti tempora cum perspiciatis deserunt ut magnam galisum!"
+              }
+            />
+
+            <EaseInComponent type={"button"} text={"See Our Projects"} />
           </div>
         </div>
         <div className={classes.section_3}>
@@ -145,14 +115,17 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
+        <SuppliersSection />
         <div className={classes.contact_section}>
           <div
             className={[classes.innerWraper, classes.contact_grid].join(" ")}
           >
             <div className={classes.contact_sectionText}>
-              <h1 className={classes.contact_sectionText_header}>
-                Looking after the details and the planet
-              </h1>
+              {/* <h1 className={classes.contact_sectionText_header}> */}
+              <TextAnimation
+                text={"Looking after the details and the planet"}
+              />
+              {/* </h1> */}
               <p className={classes.innerText}>
                 Lorem ipsum dolor sit amet. Sed quia necessitatibus et quidem
                 quod cum sunt quasi aut consectetur incidunt est quae
