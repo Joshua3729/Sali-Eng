@@ -1,4 +1,4 @@
-import classes from "./Card.module.css";
+// import classes from "./Card.module.css";
 
 const Card = ({ img, header_text, card_text }) => {
   return (
@@ -14,4 +14,4 @@ const Card = ({ img, header_text, card_text }) => {
   );
 };
 
-export default Card;
+// export default Card;

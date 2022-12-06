@@ -19,14 +19,16 @@
   width: 20em;
   height: 50%;
   border-radius: 4px;
+
 }
 
-.img3 {
+.img3{
   border-radius: 4px;
   width: 20em;
   height: 50%;
 }
 .mySection {
+ 
   background-color: rgba(0, 0, 20, 0.025);
 }
 .wwdSection {
@@ -42,6 +44,18 @@
   /* margin-left: 50%;
   margin-right: 100%; */
 }
+.bottom1{
+  background-color:  navy;
+  height: 10rem;
+  color: #000;
+
+}
+.bottom2{
+  /* background-color:  rgba(2, 2, 36, 0.025); */
+  background-color: white;
+  height: 10rem;
+}
+
 
 .design {
   background-color: white;
@@ -49,6 +63,7 @@
   float: left;
   width: 40em;
   height: 28em;
+  
   padding: 20px;
 }
 .text_wrapper {
@@ -121,35 +136,16 @@
   width: 16rem;
   color: #fff;
   border-radius: 5px;
-  background-color: rgb(23, 23, 81);
-}
-.section2wwd {
+  background-color:rgb(23, 23, 81);
+ } 
+.section2wwd{
   margin-top: 150px;
 }
-
-.whatwedo {
-  animation-name: section1Animation;
-  animation-duration: 2s;
-}
-.section_2 {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-.section_img_wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  /* background-color: red; */
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.whatwedo_hero {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 100vh;
-}
+@keyframes section1Animation {
+    0%   { width:130%;}
+    100% { width:100%;}
+  }
+  .whatwedo{
+    animation-name: section1Animation;
+    animation-duration: 2s;
+  }
