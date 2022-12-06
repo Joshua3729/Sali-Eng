@@ -5,6 +5,7 @@ import WhatWeDo from "./Pages/WhatWeDo/WhatWeDo";
 import Projects from "./Pages/Projects/Projects";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import Navigation from "./Components/Navigation/Navigation";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   const location = useLocation();
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/Projects" element={<Projects />} />
         <Route path="/ContactUs" element={<ContactUs />} />
       </Routes>
+      <Footer/>
     </>
   );
 };

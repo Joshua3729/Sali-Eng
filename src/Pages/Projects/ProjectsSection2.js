@@ -8,8 +8,6 @@ import img5 from "../../Components/drawable/img4.jpg";
 import img6 from "../../Components/drawable/img5.jpg";
 import img7 from "../../Components/drawable/img6.jpg";
 import img8 from "../../Components/drawable/img7.jpg";
-import AliceCarousel from "react-alice-carousel";
-import "react-alice-carousel/lib/alice-carousel.css";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -50,21 +48,8 @@ const ProjectsSection2 = () => {
           swipeable={false}
           draggable={false}
           showDots={true}
-          // // responsive={responsive}
           arrows={false}
           renderDotsOutside={false}
-          // ssr={true} // means to render carousel on server-side.
-          infinite={true}
-          // autoPlay={this.props.deviceType !== "mobile" ? true : false}
-          // autoPlaySpeed={1000}
-          // keyBoardControl={true}
-          // customTransition="all .5"
-          // transitionDuration={500}
-          // containerClass="carousel-container"
-          // removeArrowOnDeviceType={["tablet", "mobile"]}
-          //deviceType={this.props.deviceType}
-          // dotListClass="custom-dot-list-style"
-          // itemClass="carousel-item-padding-40-px"
         >
           <div>
             <img src={img1} className={classes.listItem} alt="list item" />
@@ -91,7 +76,7 @@ const ProjectsSection2 = () => {
             <img src={img8} className={classes.listItem} alt="list item" />
           </div>
         </Carousel>
-        ;<div className={classes.headingForRows}>Freestanding display</div>
+        <div className={classes.headingForRows}>Freestanding display</div>
       </div>
       <div className={classes.carouselContainer}>
         <Carousel
