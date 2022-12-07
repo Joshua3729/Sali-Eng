@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
           <div className="divider"></div>
           <h1 className='rights'>
-            ©Copyrights 2021 All rights reserved, Designed by Rochelle Retail
+            ©Copyrights 2021 All rights reserved, Designed by Sali Eng Retail
             Solutions.
           </h1>
         </div>
