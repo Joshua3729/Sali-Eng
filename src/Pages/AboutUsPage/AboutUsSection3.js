@@ -1,6 +1,4 @@
 import classes from './AboutUsPage.module.css';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
 import img1 from '../../Components/drawable/AboutUsBG.jpg';
 import img2 from '../../Components/drawable/img1.jpg';
 import img3 from '../../Components/drawable/img1.jpg';
@@ -10,29 +8,43 @@ import img6 from '../../Components/drawable/img5.jpg';
 import img7 from '../../Components/drawable/img6.jpg';
 import img8 from '../../Components/drawable/img7.jpg';
 import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
+import { useState } from "react";
 
-
-
-
-const AboutUsSection3 = ()=>{
+const AboutUsSection3 = () => {
+  const [visibility, setVisibility] = useState(true);
+  
 
     return (
       <>
         <div className={classes.topContainer}>
-          <div>
-            <h1 className={classes.count}>
-              +<CountUp start={0} end={270} duration={3} />
-            </h1>
-            <h1 className={classes.supportingText}>Team members</h1>
-          </div>
-          <div>
-            <h1 className={classes.count}>
-              +
-              <CountUp start={0} end={1180} duration={3} />
-                 
-            </h1>
-            <h1 className={classes.supportingText}>Yearly Products produced</h1>
-          </div>
+          <VisibilitySensor
+            onChange={(isVisible) => {
+              setVisibility(isVisible);
+            }}
+          >
+            <>
+              <div id="count">
+                <h1 className={classes.count}>
+                  +{" "}
+                  {visibility ? (
+                    <CountUp start={0} end={270} duration={3} />
+                  ) : (
+                    <div>00</div>
+                  )}
+                </h1>
+                <h1 className={classes.supportingText}>Team members</h1>
+              </div>
+              <div>
+                <h1 className={classes.count}>
+                  + {visibility ?  <CountUp start={0} end={1180} duration={3} /> : <div>00</div>}
+                </h1>
+                <h1 className={classes.supportingText}>
+                  Yearly Products produced
+                </h1>
+              </div>
+            </>
+          </VisibilitySensor>
         </div>
         <div className={classes.gridContainer}>
           <img src={img1} alt="grid item" className={classes.gridItemImg} />
