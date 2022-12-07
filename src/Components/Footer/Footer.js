@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="innerDiv">
         <div className="flexDisplay">
           <div className="gridList">
-            <div  className='first-row'>
+            <div className="first-row">
               <div>
                 <div className="logo">
                   <Logo />
@@ -65,6 +65,11 @@ const Footer = () => {
             <div>location</div>
             <div>contact us</div>
           </div>
+          <div className="divider"></div>
+          <h1 className='rights'>
+            ©Copyrights 2021 All rights reserved, Designed by Rochelle Retail
+            Solutions.
+          </h1>
         </div>
       </div>
     </div>

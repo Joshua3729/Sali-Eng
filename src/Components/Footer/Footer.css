@@ -53,8 +53,18 @@
     100%{bottom: 5px;}
 }
 .social-media-icons:hover{
+    cursor: pointer;
     position: relative;
     animation-name: social-media-icons-animation;
     animation-duration: 0.3s;
     bottom: 6px;
+}
+.divider{
+    border: 1px solid grey;
+    width: 99%;
+    margin-inline: auto;
+}
+.rights{
+    font-size: 1rem;
+    margin-block: 1.5rem;
 }
