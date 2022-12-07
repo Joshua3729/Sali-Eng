@@ -10,7 +10,6 @@
    color: white;
    text-align: center;
    
-   
 }
 .gridList{
     display: grid;
@@ -48,4 +47,14 @@
 .first-row{
     width: fit-content;
     margin-inline: auto;
+}
+@keyframes social-media-icons-animation {
+    0% {bottom: 0px;}
+    100%{bottom: 5px;}
+}
+.social-media-icons:hover{
+    position: relative;
+    animation-name: social-media-icons-animation;
+    animation-duration: 0.3s;
+    bottom: 6px;
 }
