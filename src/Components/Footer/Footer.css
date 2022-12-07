@@ -9,6 +9,23 @@
    background: linear-gradient(90deg,rgba(2, 2, 27, .95),rgba(2, 2, 27, .8));
    color: white;
    text-align: center;
-   font-weight: bold;
-   font-size: 5rem;
+   
+   
+}
+.gridList{
+    display: grid;
+   grid-template-columns: auto auto auto auto;
+   border: 2px solid rgb(255, 0, 0);
+  
+   margin-block: auto;
+}
+.flexDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.logoMessage{
+    margin-inline: 1rem;
+    padding:.5rem ;
 }
