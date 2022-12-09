@@ -175,7 +175,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 4rem;
+  margin-bottom: 0rem;
 
 
   
@@ -208,8 +208,10 @@
   box-shadow: 3px 3px 10px  2px rgba(128, 128, 128, 1);
 }
 .svg1{
- border: 3px  solid white;
  background-image: url("../../Assets/Images/wave.svg");
  background-repeat: no-repeat;
  margin-top: 4rem;
+ padding-bottom: .5rem;
+ background-size: 100%;
+ padding-bottom: 2rem;
 }
