@@ -27,12 +27,8 @@ const AboutUsSection4 = ()=>{
             <div className={classes.containerOfAnimatedImages}>
               
               <img src={img1}  alt="grid item"  className={classes.floatingImages}  id={classes.topImage}/>
-              <img src={img2}  alt="grid item"  className={classes.floatingImages}  id={classes.bottomImage}/>
-  
+            <img src={img2} alt="grid item" className={classes.floatingImages} id={classes.bottomImage} />
             </div>
-           
-
-
         </div>
         
       </>

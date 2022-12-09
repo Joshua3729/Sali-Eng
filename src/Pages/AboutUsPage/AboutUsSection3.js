@@ -26,18 +26,23 @@ const AboutUsSection3 = () => {
             <>
               <div id="count">
                 <h1 className={classes.count}>
-                  +{" "}
+                  <span>+ </span>
                   {visibility ? (
                     <CountUp start={0} end={270} duration={3} />
                   ) : (
-                    <div>00</div>
+                    <span>00</span>
                   )}
                 </h1>
                 <h1 className={classes.supportingText}>Team members</h1>
               </div>
               <div>
                 <h1 className={classes.count}>
-                  + {visibility ?  <CountUp start={0} end={1180} duration={3} /> : <div>00</div>}
+                  <span>+ </span>{" "}
+                  {visibility ? (
+                    <CountUp start={0} end={1180} duration={3} />
+                  ) : (
+                    <span>00</span>
+                  )}
                 </h1>
                 <h1 className={classes.supportingText}>
                   Yearly Products produced

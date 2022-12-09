@@ -22,8 +22,11 @@ const AboutUsPage = () => {
           <div className={classes.section}>
             <AboutUsSection4 />
           </div>
-          <div className={classes.section}>
-            <AboutUsSection5 />
+
+          <div className={classes.svg1}>
+            <div className={classes.section}>
+              <AboutUsSection5 />
+            </div>
           </div>
         </div>
       </>
