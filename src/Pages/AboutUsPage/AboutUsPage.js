@@ -27,6 +27,10 @@ const AboutUsPage = () => {
             <div className={classes.section}>
               <AboutUsSection5 />
             </div>
+
+          </div>
+          <div className={classes.finalPart}>
+              <finalPart/>
           </div>
         </div>
       </>
