@@ -1,6 +1,4 @@
-.retail_space {
-  /* background-color: red; */
-}
+/* 
 
 .cards_gridWrapper {
   width: 100%;
@@ -16,8 +14,8 @@
 }
 
 .img2 {
-  width: 20em;
-  height: 50%;
+  width: 20em; 
+   height: 50%;
   border-radius: 4px;
 
 }
@@ -42,21 +40,21 @@
   justify-content: center;
   align-items: center;
   /* margin-left: 50%;
-  margin-right: 100%; */
+  margin-right: 100%; 
 }
 .bottom1{
   background-color:  navy;
   height: 10rem;
   color: #000;
 
-}
-.bottom2{
-  /* background-color:  rgba(2, 2, 36, 0.025); */
+}*/
+/* .bottom2{
+   background-color:  rgba(2, 2, 36, 0.025); 
   background-color: white;
   height: 10rem;
-}
+} */
 
-
+/* 
 .design {
   background-color: white;
   border-radius: 7px;
@@ -74,14 +72,14 @@
   transform: scale(1.1);
   background: rgba(7, 7, 34, 0.025);
   box-shadow: 2px 2px 2px #000;
-}
-.plastic {
+} */
+/* .plastic {
   background-color: white;
   border-radius: 7px;
   float: center;
   width: 40em;
-  height: 28em;
-}
+  height: 28em; 
+ }
 .plastic:hover {
   transform: scale(1.1);
   background: rgba(7, 7, 34, 0.025);
@@ -114,8 +112,8 @@
 }
 .section3w {
   height: auto;
-}
-.section3wwd {
+} */
+/* .section3wwd {
   width: 100%;
   margin-top: 30px;
   display: grid;
@@ -148,4 +146,5 @@
   .whatwedo{
     animation-name: section1Animation;
     animation-duration: 2s;
-  }
+  }  */
+  

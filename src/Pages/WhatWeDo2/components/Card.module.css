@@ -1,5 +1,6 @@
-/* .Card {
+.Card {
   height: 500px;
+  width: 350px;
   background-color: white;
   border-radius: 7px;
   overflow: hidden;
@@ -17,4 +18,4 @@
 .text_wrapper {
   padding: 20px;
   box-sizing: border-box;
-} */
+}

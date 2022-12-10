@@ -1,0 +1,105 @@
+ /* .WWDsection1, .WWDsection2 , .WWDsection3 {
+  width: 100%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+} */
+.section3Container{
+  display: flex;
+  justify-content: center;
+}
+a{
+  margin-left: 16px;
+}
+.Icons{
+  display: flex;
+  
+justify-content: space-between;
+  
+}
+.buttonSection3{
+  border: 10px 10px 10px 10px;
+  color: navy;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.section3Container{
+  background: linear-gradient(135deg,rgb(2, 2, 27),white);
+  height: fit-content;
+  width: 100%;
+  
+
+}
+.section_2{
+  margin-left:5%;
+  margin-right: 5%;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.mySectio{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+ 
+}
+
+.H1div {
+  color: rgb(19, 19, 98);
+}
+.Pdiv {
+}
+.H4div {
+  width: 16rem;
+  color: #fff;
+  border-radius: 5px;
+  background-color:rgb(23, 23, 81);
+ } 
+
+ .cards_gridWrapper {
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+@keyframes section1Animation {
+    0%   { width:130%;}
+    100% { width:100%;}
+  }
+
+  .WWDsection1{
+    animation-name: section1Animation;
+    animation-duration: 2s;
+  }
+  .whatwedo{
+    animation-name: section1Animation;
+    animation-duration: 2s;
+  } 
+  .WWDsection1Parent{
+    display: flex;
+    justify-content: center;
+  }
+
+  .WWDsection1{
+    width: 100%;
+  }
+  .aboutUsText{
+    animation-name: section1Animation;
+    /* animation-duration: 1s; */
+  } 
+
+
+  .aboutUsText {
+    backface-visibility: hidden;
+    font-size: 2rem;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    
+  }

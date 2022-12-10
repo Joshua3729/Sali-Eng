@@ -70,7 +70,7 @@ const Navigation = ({ activeLink }) => {
           style={{ color: scroll ? "black" : "white" }}
         >
           <Link
-            to="/WhatWeDo"
+            to="/WhatWeDo2"
             style={{
               color: scroll ? "black" : "white",
               textDecoration: "none",
@@ -78,7 +78,7 @@ const Navigation = ({ activeLink }) => {
           >
             <span
               className={
-                activeLink === "/WhatWeDo"
+                activeLink === "/WhatWeDo2"
                   ? [classes.navLink, classes.activeLink].join(" ")
                   : classes.navLink
               }
