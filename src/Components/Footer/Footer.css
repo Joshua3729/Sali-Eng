@@ -68,3 +68,16 @@
     font-size: 1rem;
     margin-block: 1.5rem;
 }
+.location{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.location> div{
+    border: 2px solid red;
+}
+.icons-footer{
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}

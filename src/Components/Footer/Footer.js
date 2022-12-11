@@ -6,6 +6,7 @@ import linkedIn from "../../Assets/social-media/linkedin.png";
 import instagram from "../../Assets/social-media/instagram.png";
 import twitter from "../../Assets/social-media/twitter.png";
 import whatsapp from "../../Assets/social-media/whatsapp.png";
+import location  from '../../Assets/Images/location.png'
 const Footer = () => {
   return (
     <div className="Footer">
@@ -60,13 +61,19 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-
-            <div>company</div>
-            <div>location</div>
-            <div>contact us</div>
+            <div>
+              <div>location</div>
+              <div className='location'>
+                <img src={location} className="icons-footer" />
+                <div>23 mandela unibell.</div>
+              </div>
+            </div>
+            <div>
+              <div>contact us</div>
+            </div>
           </div>
           <div className="divider"></div>
-          <h1 className='rights'>
+          <h1 className="rights">
             ©Copyrights 2021 All rights reserved, Designed by Sali Eng Retail
             Solutions.
           </h1>
