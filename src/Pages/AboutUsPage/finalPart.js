@@ -14,8 +14,6 @@ const FinalPart = () => {
         <span className={classes.apply1}>Apply for a job </span>
         <span>{" >"}</span>
       </div>
-
-      <div></div>
     </>
   );
 }

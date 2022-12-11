@@ -163,7 +163,7 @@
 .AboutUsSection5{
   height: 40vh;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.5);
   display: flex;
   justify-content: center;
@@ -231,9 +231,10 @@
   margin-inline: auto;
 }
 .finalPart{
-  padding: 7rem;
-  width: 80%;
+  width: 100%;
   margin-inline: auto;
+  background-color: rgb(0, 0, 20,.05);
+  padding-block:7rem ;
 }
 .apply{
   width: fit-content;
