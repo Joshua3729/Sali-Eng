@@ -169,7 +169,7 @@
   justify-content: center;
   flex-direction: column;
   margin-bottom: 0rem;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(5px);
 
 
   
@@ -210,6 +210,42 @@
  padding-bottom: 2rem;
 }
 /* final part css  */
+
+.smallText> *{
+  width: fit-content;
+  font-size: .9rem;
+  font-weight: bold;
+
+}
+.bigText> *{
+  width: fit-content;
+  margin-inline: auto;
+  font-size: 3rem;
+}
+.smallText {
+  padding-inline: .5rem;
+  background-color: rgb(0, 0, 20,.1);
+  border-radius: 3px;
+  width: fit-content;
+  height: fit-content;
+  margin-inline: auto;
+}
 .finalPart{
-  
+  padding: 7rem;
+  width: 80%;
+  margin-inline: auto;
+}
+.apply{
+  width: fit-content;
+  height: fit-content;
+  margin-inline: auto;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgb(0, 0, 20,.7);
+}
+.apply:hover{
+  cursor: pointer;
+}
+.apply1:hover{
+  box-shadow: 0px 3px rgb(0, 0, 20,.4);
 }

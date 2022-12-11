@@ -5,6 +5,7 @@ import AboutUsSection2 from './AboutUsSection2';
 import AboutUsSection3 from './AboutUsSection3';
 import AboutUsSection4 from './AboutUsSection4';
 import AboutUsSection5 from './AboutUsSection5';
+import FinalPart from './finalPart';
 
 const AboutUsPage = () => {
     return (
@@ -30,7 +31,7 @@ const AboutUsPage = () => {
 
           </div>
           <div className={classes.finalPart}>
-              <finalPart/>
+              <FinalPart/>
           </div>
         </div>
       </>
