@@ -139,11 +139,12 @@ const Navigation = ({ activeLink }) => {
             to="/Quote" 
           >
               <span
-              className={
-                activeLink === "/Quote"
-                  ? [classes.navLink, classes.activeLink].join(" ")
-                  : classes.navLink
-              }
+              // className={
+              //   activeLink === "/Quote"
+              //     ? [classes.navLink, classes.activeLink].join(" ")
+              //     : classes.navLink
+              
+              // }
             >
              <button className={classes.CTA_btn }>Get a Quote</button>
             </span>

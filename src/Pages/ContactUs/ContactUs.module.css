@@ -91,7 +91,7 @@
     height: 1.8rem;
     left: 40%;
     border-radius: 30px;
-    background-color:lightblue;
+    background-color:rgba(4, 4, 51, 0.5);
     padding: 1rem;
 }
 .callUs{
