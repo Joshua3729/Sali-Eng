@@ -1,5 +1,7 @@
 {
-    "prettier.enableDebugLogs": true,
-    "prettier.endOfLine": "auto",
-    "prettier.withNodeModules": true
+  "prettier.enableDebugLogs": true,
+  "prettier.endOfLine": "auto",
+  "prettier.withNodeModules": true,
+  "spellright.language": ["en-GB-10-1."],
+  "spellright.documentTypes": ["markdown", "latex", "plaintext", "css"]
 }

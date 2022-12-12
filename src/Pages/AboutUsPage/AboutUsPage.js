@@ -5,6 +5,7 @@ import AboutUsSection2 from './AboutUsSection2';
 import AboutUsSection3 from './AboutUsSection3';
 import AboutUsSection4 from './AboutUsSection4';
 import AboutUsSection5 from './AboutUsSection5';
+import FinalPart from './finalPart';
 
 const AboutUsPage = () => {
     return (
@@ -27,6 +28,10 @@ const AboutUsPage = () => {
             <div className={classes.section}>
               <AboutUsSection5 />
             </div>
+
+          </div>
+          <div className={classes.finalPart}>
+              <FinalPart/>
           </div>
         </div>
       </>
