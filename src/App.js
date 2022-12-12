@@ -4,6 +4,7 @@ import AboutUsPage from "./Pages/AboutUsPage/AboutUsPage";
 import WhatWeDO2 from "./Pages/WhatWeDo2/WhatWeDo2";
 import Projects from "./Pages/Projects/Projects";
 import ContactUs from "./Pages/ContactUs/ContactUs";
+import Quote from "./Pages/Quote/Quote";
 import Navigation from "./Components/Navigation/Navigation";
 import Footer from "./Components/Footer/Footer";
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/WhatWeDo2" element={<WhatWeDO2 />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/Quote" element={<Quote />} />
       </Routes>
       <Footer/>
     </>

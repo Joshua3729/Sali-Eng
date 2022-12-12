@@ -3,6 +3,8 @@ import image1 from "../../Assets/Images/store.jpeg";
 import image2 from "../../Assets/Images/clothingrack1.jpeg";
 import image3 from "../../Assets/Images/desk.jpeg";
 import Card from "./components/Card";
+import Cards from "./components/Cards";
+import Cardz from "./components/Cardz";
 
 import image1b from "../../Assets/Images/store.jpeg";
 import image2b from "../../Assets/Images/clothingrack1.jpeg";
@@ -41,16 +43,18 @@ const WWDsection2 = () => {
           }
         />
       </div>
-    
-      <div className={classes.cards_gridWrapper}>
-      <Card
+    <div className={classes.last2Cards}>
+      <div className={classes.cards_gridWrapper2}>
+      <Cards
           img={image2b}
           header_text={"Logistics"}
           card_text={
             "Our Design team cover 2D Design / DTP / 3D design and Rendering as well as Mechanical Design and Engineerin"
           }
         />
-        <Card
+        </div>
+        <div className={classes.cards_gridWrapper3}>
+        <Cardz
           img={image1b}
           header_text={"Quality Control"}
           card_text={
@@ -59,7 +63,7 @@ const WWDsection2 = () => {
         />
       </div>
       
-    
+    </div>
     </div>
   );
 };
