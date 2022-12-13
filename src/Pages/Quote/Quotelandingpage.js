@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import classes from '../ContactUs/ContactUs.module.css';
 import classes from "./Quote.module.css";
 
 export default class Quotelandingpage extends Component {
@@ -32,7 +31,7 @@ export default class Quotelandingpage extends Component {
       ContactDetails: event.target.value,
     });
   };
- 
+
   handleCompany = (event) => {
     this.setState({
       Company: event.target.value,
@@ -55,7 +54,6 @@ export default class Quotelandingpage extends Component {
         <div className={classes.projectsSection3}>
           <div className={classes.section}>
             <div className={classes.message}>
-             
               <div className={classes.innerGrid}>
                 <div className={classes.subjectLine}>Request a Quotation</div>
                 <div className={classes.storyLine}>
@@ -69,8 +67,11 @@ export default class Quotelandingpage extends Component {
 
             <div className={classes.form}>
               <form className={classes.contactUsForm}>
-                <div className={classes.formTitle}><p className={classes.getQuote}><b>Get A Quote</b></p></div>
-            
+                <div className={classes.formTitle}>
+                  <p className={classes.getQuote}>
+                    <b>Get A Quote</b>
+                  </p>
+                </div>
 
                 <div className={classes.containerWithinForm}>
                   <div className={classes.formContent}>
@@ -91,18 +92,18 @@ export default class Quotelandingpage extends Component {
                       type="text"
                       value={this.state.userEmail}
                       className={classes.input}
-                     
                       onChange={this.handleUserEmail}
                     ></input>
                   </div>
 
                   <div className={classes.formContent}>
-                    <label className={classes.formSubtitle}>Contact Number</label>
+                    <label className={classes.formSubtitle}>
+                      Contact Number
+                    </label>
                     <input
                       type="text"
                       value={this.state.ContactDetails}
                       className={classes.input}
-                     
                       onChange={this.handleContactDetails}
                     ></input>
                   </div>
@@ -113,19 +114,16 @@ export default class Quotelandingpage extends Component {
                       type="text"
                       value={this.state.Company}
                       className={classes.input}
-                  
                       onChange={this.handleCompany}
                     ></input>
                   </div>
 
-                  
                   <div className={classes.formContent}>
                     <label className={classes.formSubtitle}>Project</label>
                     <input
                       type="text"
                       value={this.state.Project}
                       className={classes.input}
-                    
                       onChange={this.handleProject}
                     ></input>
                   </div>
@@ -139,12 +137,15 @@ export default class Quotelandingpage extends Component {
                       value={this.state.userMessage}
                       onChange={this.handleUserMessage}
                     ></textarea>
-                    <label className={classes.uploadsection}>Upload Files Here (optional)</label>
+                    <label className={classes.uploadsection}>
+                      Upload Files Here (optional)
+                    </label>
                     <span className={classes.optional}>
-                     <button className={classes.buttonSubmit1}>
-                      Choose File 
-                    </button>
-                     <p className={classes.para}>No file chosen</p></span>
+                      <button className={classes.buttonSubmit1}>
+                        Choose File
+                      </button>
+                      <p className={classes.para}>No file chosen</p>
+                    </span>
                     <button className={classes.buttonSubmit2}>
                       Request Quote
                     </button>
