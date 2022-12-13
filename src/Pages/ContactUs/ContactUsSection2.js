@@ -2,11 +2,12 @@ import classes from './ContactUs.module.css';
 import email from '../../Assets/Images/email.png';
 import locationIcon from '../../Assets/Images/location.png';
 import callIcon from '../../Assets/Images/call.png';
-import img1 from '../../Components/drawable/AboutUsBG.jpg';
-import img2 from '../../Components/drawable/img1.jpg';
-import img3 from '../../Components/drawable/img1.jpg';
-import img4 from '../../Components/drawable/img3.jpg';
-import img5 from '../../Components/drawable/img4.jpg';
+import img1 from '../../Components/drawable/WINESHELF.jpeg';
+import img2 from '../../Components/drawable/MINIONS.jpeg';
+import img3 from '../../Components/drawable/BLUEBAY.jpeg';
+import img5 from '../../Components/drawable/DOVEMEN.jpeg';
+import img4 from '../../Components/drawable/stand.jpeg';
+
 import img6 from '../../Components/drawable/img5.jpg';
 const ContactUsSection2 = () => {
   return (
@@ -15,13 +16,13 @@ const ContactUsSection2 = () => {
       <div className={classes.gridContainer1}>
         <img src={img1} alt="grid item" className={classes.gridItemImg} />
 
-        <img src={img2} alt="grid item" className={classes.gridItemImg} />
-
-        <img src={img3} alt="grid item" className={classes.gridItemImg} />
-
         <img src={img4} alt="grid item" className={classes.gridItemImg} />
 
         <img src={img5} alt="grid item" className={classes.gridItemImg} />
+
+        <img src={img2} alt="grid item" className={classes.gridItemImg} />
+
+        <img src={img3} alt="grid item" className={classes.gridItemImg} />
 
         <img src={img6} alt="grid item" className={classes.gridItemImg} />
       </div>

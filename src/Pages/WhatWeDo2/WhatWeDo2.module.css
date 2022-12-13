@@ -260,14 +260,17 @@ justify-content: space-between;
   grid-template-columns: repeat(3, 1fr);
 }
 .cards_gridWrapper2 {
+  margin-left: 50px;
   width: 400%;
   height:50%;
   /* display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr); */
 }
+
 .cards_gridWrapper3 {
   width: 120%;
+  margin-right: 50px;
   height:50%;
   display: grid;
   grid-gap: 20px;

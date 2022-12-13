@@ -1,5 +1,5 @@
 import classes from "../WhatWeDo2/WhatWeDo2.module.css";
-import imageSection1 from "../../Assets/Images/HANGER.jpeg";
+import imageSection1 from "../../Assets/Images/Kitchen.jpeg";
 
 const WWDSection1 = () => {
   return (

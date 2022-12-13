@@ -46,7 +46,7 @@ const WWDsection2 = () => {
       <div className={classes.last2Cards}>
         <div className={classes.cards_gridWrapper2}>
           <Cards
-            img={image2b}
+            img={image1b}
             header_text={"GLOW SIGNAGE"}
             card_text={
               "Our Design team cover 2D Design / DTP / 3D design and Rendering as well as Mechanical Design and Engineerin"
@@ -55,7 +55,7 @@ const WWDsection2 = () => {
         </div>
         <div className={classes.cards_gridWrapper3}>
           <Cardz
-            img={image1b}
+            img={image2b}
             header_text={"IN STORE UNITS"}
             card_text={
               " The first acrylic fabrication factory in the Western Cape"
