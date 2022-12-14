@@ -209,7 +209,7 @@ justify-content: space-between;
 }
 .buttonSection3{
   border: 10px 10px 10px 10px;
-  color: navy;
+  color:rgb(2, 2, 27);
   padding: 10px 22px;
   text-align: center;
   text-decoration: none;
@@ -237,15 +237,16 @@ justify-content: space-between;
 }
 
 .H1div {
-  color: rgb(19, 19, 98);
+  color:rgba(4, 4, 51);
 }
 .Pdiv {
+ color :rgba(4, 4, 51);
 }
 .H4div {
   width: 16rem;
   color: #fff;
   border-radius: 5px;
-  background-color:rgb(23, 23, 81);
+   background-color:rgba(4, 4, 51);;
  } 
 .last2Cards{
   display: flex;
