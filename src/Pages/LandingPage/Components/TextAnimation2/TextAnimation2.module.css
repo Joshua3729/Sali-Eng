@@ -1,0 +1,68 @@
+.span {
+  display: inline-block;
+  color: black;
+  animation-name: text_animation;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-iteration-count: initial;
+  animation-duration: 1.5s;
+}
+.sub_header {
+}
+
+.easeup {
+  color: #adb5bd;
+  font-size: 20px;
+  margin: 0;
+  opacity: 0;
+
+  animation-name: easeup_animation;
+  animation-fill-mode: forwards;
+  animation-iteration-count: initial;
+  animation-duration: 1.5s;
+}
+
+.span:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.span:nth-child(3) {
+  animation-delay: 0.7s;
+}
+.span:nth-child(4) {
+  animation-delay: 0.9s;
+}
+.span:nth-child(5) {
+  animation-delay: 1.2s;
+}
+.easeup {
+  animation-delay: 1.5s;
+}
+
+@keyframes text_animation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    filter: blur(0px);
+  }
+}
+
+@keyframes easeup_animation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    filter: blur(0px);
+  }
+}

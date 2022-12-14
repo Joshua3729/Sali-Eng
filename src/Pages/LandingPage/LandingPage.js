@@ -6,10 +6,15 @@ import SlideShow from "./Components/SlideShow";
 import StatCounter from "../../Components/StatCounter/StatCounter";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import banner from "../../Assets/Images/banner.svg";
 import Typed from "react-typed";
 import Section2 from "./Section/Section2";
 import TextAnimation from "./Components/TextAnimation";
 import EaseInComponent from "./Components/EaseInComponent/EaseInComponent";
+import SVGComponent from "./SvgComponent/SvgComponent";
+import person from "../../Assets/Images/person.png";
+import PersonIcon from "../../Components/UI/Logo/SVGComponets/PersonIcon";
+import TextAnimation2 from "./Components/TextAnimation2/TextAnimation2";
 
 const LandingPage = () => {
   const { ref, inView } = useInView({ threshold: 0.3, triggerOnce: true });
@@ -115,6 +120,8 @@ const LandingPage = () => {
           </div>
         </div>
         <div className={classes.contact_section}>
+          <SVGComponent />
+
           <div
             className={[classes.innerWraper, classes.contact_grid].join(" ")}
           >
@@ -132,7 +139,95 @@ const LandingPage = () => {
                 qui autem quia!
               </p>
             </div>
-            <div className={classes.form_wrapper}></div>
+            <div className={classes.form_wrapper}>
+              <form className={classes.contactus_form}>
+                {/* <h3 className={classes.form_header}>Get in touch</h3> */}
+                <TextAnimation2
+                  text={"Get sin touch"}
+                  header={true}
+                  color={"#495057"}
+                />
+
+                <TextAnimation2
+                  text={"We are here for you. How can we help?"}
+                  header={true}
+                  color={"#495057"}
+                  textAnimation={"easeUp"}
+                />
+                <div className={classes.form_innerWrapper}>
+                  <div className={classes.form_grid}>
+                    <div className={classes.input_item_wrapper}>
+                      <label className={classes.input_label}>Fullname</label>
+                      <div className={classes.input_wrapper}>
+                        <input
+                          type={"text"}
+                          placeholder={"John Doe"}
+                          className={classes.input_item}
+                        />
+                        <div className={classes.personIcon_wrapper}>
+                          <i
+                            class="fas fa-solid fa-user"
+                            style={{ color: "#adb5bd" }}
+                          ></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div className={classes.input_item_wrapper}>
+                      <label className={classes.input_label}>Email</label>
+                      <div className={classes.input_wrapper}>
+                        <input
+                          type={"text"}
+                          placeholder={"you@company.com"}
+                          className={classes.input_item}
+                        />
+                        <div className={classes.personIcon_wrapper}>
+                          <i
+                            class=" fas fa-regular fa-envelope"
+                            style={{ color: "#adb5bd" }}
+                          ></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={classes.form_grid}>
+                    <div className={classes.input_item_wrapper}>
+                      <label className={classes.input_label}>Subject</label>
+                      <div className={classes.input_wrapper}>
+                        <input
+                          type={"text"}
+                          placeholder={"subject"}
+                          className={classes.input_item}
+                        />
+                        <div className={classes.personIcon_wrapper}>
+                          <i
+                            class="fas fa-solid fa-pen-nib"
+                            style={{ color: "#adb5bd" }}
+                          ></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className={classes.textarea_wrapper}>
+                    <label className={classes.input_label}>
+                      How can we help you?
+                    </label>
+                    <textarea
+                      name="your-message"
+                      cols="40"
+                      rows="4"
+                      className={classes.textarea_item}
+                      aria-required="true"
+                      aria-invalid="false"
+                      placeholder="Your Message"
+                    ></textarea>
+                  </div>
+                  <button className={classes.send_messageBtn}>
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
