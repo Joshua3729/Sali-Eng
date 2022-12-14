@@ -70,7 +70,7 @@ const Navigation = ({ activeLink }) => {
           style={{ color: scroll ? "black" : "white" }}
         >
           <Link
-            to="/WhatWeDo"
+            to="/WhatWeDo2"
             style={{
               color: scroll ? "black" : "white",
               textDecoration: "none",
@@ -78,7 +78,7 @@ const Navigation = ({ activeLink }) => {
           >
             <span
               className={
-                activeLink === "/WhatWeDo"
+                activeLink === "/WhatWeDo2"
                   ? [classes.navLink, classes.activeLink].join(" ")
                   : classes.navLink
               }
@@ -135,7 +135,22 @@ const Navigation = ({ activeLink }) => {
           className={classes.nav_item}
           style={{ color: scroll ? "black" : "white" }}
         >
-          <button className={classes.CTA_btn}>Get a Quote</button>
+          <Link
+            to="/Quote" 
+          >
+              <span
+              // className={
+              //   activeLink === "/Quote"
+              //     ? [classes.navLink, classes.activeLink].join(" ")
+              //     : classes.navLink
+              
+              // }
+            >
+             <button className={classes.CTA_btn }>Get a Quote</button>
+            </span>
+          
+          </Link>
+   
         </li>
       </ul>
     </div>,

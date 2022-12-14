@@ -1,0 +1,111 @@
+.Footer{
+    height: 70vh;
+    background-image: url('../../Assets/Images/Kitchen.jpeg');
+    background-size: 100%;
+}
+
+.innerDiv{
+   height: 100%;
+   background: linear-gradient(90deg,rgba(2, 2, 27, .95),rgba(2, 2, 27, .8));
+   color: white;
+   text-align: center;
+   
+}
+.gridList{
+    display: grid;
+   grid-template-columns: auto auto auto;
+   margin-block: auto;
+}
+.flexDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+.logo{
+    width: fit-content;
+}
+.logoMessage{
+    padding-block:.5rem ;
+    width: fit-content;
+    margin-top: 1rem;
+}
+.social-media{
+    display: flex;
+    gap: 1rem;
+    justify-content:center;
+  
+    width: fit-content;
+    margin-top: 1rem;
+}
+.social-media-icons{
+    width: 2rem;
+    height: 2rem;
+    
+}
+.first-row{
+    width: fit-content;
+    margin-inline: auto;
+}
+@keyframes social-media-icons-animation {
+    0% {bottom: 0px;}
+    100%{bottom: 5px;}
+}
+.social-media-icons:hover{
+    cursor: pointer;
+    position: relative;
+    animation-name: social-media-icons-animation;
+    animation-duration: 0.3s;
+    bottom: 6px;
+}
+.divider{
+    border: 1px solid grey;
+    width: 99%;
+    margin-inline: auto;
+}
+.rights{
+    font-size: 1rem;
+    margin-block: 1.5rem;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    gap: .2rem;
+    font-size: .85rem;
+}
+@keyframes icons-animation {
+    0% {bottom: 0px;}
+    100% {bottom: 5px;}
+}
+.icons-footer{
+  width: 1.25rem;
+  height: 1.25em;
+  color: white;
+}
+
+
+.subject-line{
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-bottom:1rem;
+}
+.contact-us{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    font-size: .85rem;
+    margin-bottom: .5rem;
+}
+.icons{
+    padding: .1rem;
+}
+.icons:hover{
+    position: relative;
+    animation-name:  icons-animation;
+    animation-duration: .3s;
+    bottom: 5px;
+    cursor: pointer;
+    
+    
+}

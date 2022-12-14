@@ -35,10 +35,15 @@
   font-size: 17px;
   border-radius: 10px;
   background: linear-gradient(to right, #181b29, #6c7586);
+
+}
+.CTA_btn:hover{
+  cursor: pointer;
 }
 .navLink {
   position: relative;
 }
+
 .navLink::after {
   content: " ";
   position: absolute;

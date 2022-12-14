@@ -1,0 +1,287 @@
+.mySection {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Quotelandingpage {
+  width: 100%;
+}
+
+.section {
+  width: 80%;
+}
+
+.text1 {
+  border: 2px solid red;
+  width: fit-content;
+  height: fit-content;
+}
+
+.stunningProjects {
+  width: fit-content;
+  height: fit-content;
+  padding-inline: 5px;
+  background-color: rgb(2, 2, 27, 0.8);
+  margin-inline: auto;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+.stunningProjectsMessage {
+  color: rgb(2, 2, 27, 0.7);
+  width: 75%;
+  height: fit-content;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-inline: auto;
+  text-align: center;
+  margin-block: 1rem;
+}
+.projectList {
+  display: grid;
+  border: 4px solid steelblue;
+  grid-auto-flow: column;
+  /* wrap just in the mean time... ill remove later */
+  /* flex-wrap: wrap; */
+}
+
+.listItem {
+  border-radius: 3px;
+  width: 16rem;
+  margin-bottom: 1rem;
+}
+.dotStyle {
+  border-style: solid;
+  border-width: 2px;
+  border-color: steelblue;
+  border-radius: 6px;
+  width: 10px;
+  height: 10px;
+  margin-left: 0.5rem;
+}
+.dotStyle:hover {
+  background-color: rgba(70, 131, 180, 0.7);
+}
+.imageSliderContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 0.5rem;
+  border: 3px solid black;
+  justify-content: center;
+}
+.dotContainer {
+  display: flex;
+  margin-block: 5rem;
+  margin-top: 1rem;
+}
+.headingForRows {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  height: fit-content;
+  font-weight: bold;
+  color: rgb(2, 2, 27);
+  margin-top: 1rem;
+}
+.carouselContainer {
+  margin-bottom: 6rem;
+}
+
+/* section 3  */
+.projectsSection3 {
+  background: linear-gradient(135deg, rgb(2, 2, 27), white);
+  height: fit-content;
+  width: 100%;
+  /* margin-bottom: 80px; */
+}
+.section {
+  /* text-align: center; */
+  margin-inline: auto;
+  /*     
+    margin-bottom: 80px; */
+
+  width: 80%;
+  /* display: grid;
+    grid-template-columns: 54.5% 44.5%; */
+  color: white;
+  padding-block: 7rem;
+  justify-content: center;
+}
+
+.message {
+  padding-top: 5rem;
+  text-align: left;
+  margin-bottom: 40px;
+  text-overflow: ellipsis;
+}
+.form {
+  background-color: white;
+  height: auto;
+  width: 50%;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.optional {
+  color: black;
+  display: flex;
+}
+.uploadsection {
+  color: #000; /* Fallback for older browsers */
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+}
+.para {
+  margin-left: 4px;
+  color: #000; /* Fallback for older browsers */
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+}
+.buttonSubmit1 {
+  width: 150px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.buttonSubmit2 {
+  width: 180px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.buttonSubmit:hover {
+  opacity: 0.8;
+}
+.input:focus {
+  outline: none;
+}
+
+.paragraphInForm > textarea:focus {
+  outline: none;
+}
+.paragraphInForm {
+  display: grid;
+  width: 100%;
+  contain: content;
+}
+.paragraphInForm > label {
+  margin-inline: 5px;
+}
+.paragraphInForm > textarea {
+  height: 7rem;
+  border-radius: 5px;
+  background-color: rgba(2, 2, 27, 0.025);
+  color: grey;
+  font-size: 1rem;
+  text-align: start;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin-inline: 5px;
+  outline: none;
+  resize: none;
+  border: none;
+  overflow: auto;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.formContent {
+  display: grid;
+  width: 188%;
+  margin-left: 0.3rem;
+}
+.containerWithinForm {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.input {
+  height: 2rem;
+  border-width: 0;
+  border-radius: 5px;
+  background-color: rgba(2, 2, 27, 0.025);
+  color: grey;
+  font-size: 1rem;
+  width: 14rem;
+  color: black;
+}
+.getQuote {
+  text-align: center;
+}
+.formSubtitle {
+  text-align: start;
+  color: grey;
+  opacity: 0.7;
+  font-size: 1.15rem;
+  margin-top: 0.7rem;
+}
+.formTitle {
+  color: rgb(2, 2, 27);
+  font-weight: bold;
+  opacity: 0.8;
+  font-size: 2rem;
+}
+.deals {
+  padding: 0.6rem;
+  padding-left: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  width: fit-content;
+  background-color: rgba(2, 2, 27, 0.1);
+  border-radius: 19px;
+}
+.deals > span {
+  margin-block: auto;
+}
+.exclusive {
+  background-color: rgb(105, 212, 177);
+  border-radius: 17px;
+  padding: 4px;
+}
+.innerGrid {
+  width: 90%;
+  text-align: start;
+  display: grid;
+  gap: 1rem;
+  justify-content: start;
+}
+
+.subjectLine {
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.storyLine {
+  font-size: 1.25rem;
+}
+.moreInfoButton {
+  background-color: white;
+  color: black;
+  padding: 0.3rem;
+  border: 2px solid black;
+}
+.moreInfoButton:hover {
+  background-color: black;
+  color: white;
+}
+.triangle {
+  width: 0;
+  border-bottom: 120px solid red;
+  border-left: 60px solid white;
+  border-right: 60px solid white;
+}
+.animationForm {
+  color: black;
+  font-weight: bold;
+  padding: 1rem;
+}

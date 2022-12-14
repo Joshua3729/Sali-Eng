@@ -119,6 +119,7 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
+        <SuppliersSection />
         <div className={classes.contact_section}>
           <SVGComponent />
 
