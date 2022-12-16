@@ -17,6 +17,8 @@
 }
 
 .innerWraper {
+  position: relative;
+  z-index: 1200;
   display: block;
   max-width: 1140px;
   margin: 0 auto;
@@ -131,6 +133,7 @@
 
 
 .contact_section {
+  position: relative;
   background-image: linear-gradient(
       43deg,
       rgba(24, 27, 41, 0.9) 0%,
@@ -160,6 +163,108 @@
   font-size: 20px;
 }
 .form_wrapper {
-  height: 80vh;
+  min-height: 80vh;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 90%);
+  border-radius: 10px;
   background-color: white;
+  padding: 70px 20px 20px 20px;
+}
+.bannerImg {
+  width: "100%";
+  height: 500px;
+}
+.form_header {
+  color: #495057;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.sub_header {
+  color: #adb5bd;
+  font-size: 20px;
+  margin: 0;
+}
+.contactus_form {
+  text-align: center;
+}
+
+.input_item_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.input_item {
+}
+.form_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.form_innerWrapper {
+  text-align: left;
+}
+.form_grid {
+  margin-top: 30px;
+}
+.input_item {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px 10px 30px;
+  border-radius: 5px;
+  border: 2px solid #e5e8ec;
+  outline: none;
+}
+.input_label {
+  margin-bottom: 10px;
+  color: #adb5bd;
+}
+.input_wrapper {
+  position: relative;
+  background-color: yellow;
+}
+.personIcon_wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  z-index: 900;
+}
+.person_icon {
+  width: 20px;
+  height: 20px;
+  background-color: #181b29;
+}
+.textarea_item {
+  width: 100%;
+  border: 2px solid #e5e8ec;
+  height: auto;
+  min-height: 150px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  resize: none;
+}
+.textarea_item:focus {
+  border: 2px solid #e5e8ec;
+  outline: none;
+}
+.textarea_item:active {
+  border: 2px solid #e5e8ec;
+  outline: none;
+}
+.textarea_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.textarea_wrapper {
+  margin-top: 30px;
+}
+.send_messageBtn {
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 2px solid #e5e8ec;
+  background: linear-gradient(to right, #181b29, #6c7586);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
