@@ -131,7 +131,7 @@ const LandingPage = () => {
                 quod cum sunt quasi aut consectetur incidunt est quae
                 accusantium est maiores harum. Aut accusantium iusto et quaerat
                 corporis id voluptate fugit. Est debitis sunt quo eius corrupti
-                qui autem quia!
+
               </p>
             </div>
             <div className={classes.form_wrapper}></div>

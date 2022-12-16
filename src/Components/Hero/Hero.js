@@ -32,15 +32,12 @@ const Hero = () => {
         {/* <h1 className={classes.CTA_Header}>
           Your One Stop Shop For Retail Solutions. Come Work With Us
         </h1> */}
-        <TextAnimation
-          text={" Your One Stop Shop For Retail Solutions. Come Work With Us"}
-          header={true}
-        />
+        <TextAnimation text={"Tommorrow is designed today!"} header={true} />
         <p className={classes.secondaryHeader}>
-          Lorem ipsum dolor sit amet. Est velit facere sit voluptas molestiae et
-          suscipit officiis hic nostrum velit? A esse ipsam vel ratione deserunt
-          est delectus laborum et architecto magnam et expedita quos vel aperiam
-          tempore.
+          At ILUMI DESIGN we design metal, plastic and wood work for clients.
+          We also create logos and all aided design art work. We organise
+          manufacturing companies for our clients to get quotation and get their
+          product running.
         </p>
         <button className={classes.CTA_btn}>Explore More</button>
       </div>
