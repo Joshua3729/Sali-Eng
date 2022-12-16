@@ -58,7 +58,11 @@
   position: absolute;
   top: 50%;
   left: 100px;
-  width: 800px;
+  display: flex;
+  width: calc(100% - 200px);
+  /* background-color: yellow; */
+  justify-content: center;
+  align-items: center;
   transform: translateY(-50%);
 }
 .CTA_Header {
@@ -70,4 +74,91 @@
 .secondaryHeader {
   color: white;
   font-size: 20px;
+}
+.CTA_innerWrapper {
+  width: 800px;
+}
+
+.cardsWrapper {
+  position: relative;
+  width: 700px;
+  height: 500px;
+  margin-left: 20px;
+  /* background-color: red; */
+}
+.heroCard {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 450px;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 60%);
+  background-color: #181b29;
+  border-radius: 20px;
+}
+.heroCard:first-child {
+  background-color: #1a1917;
+  opacity: 0;
+  animation-name: monFrame3;
+  animation-fill-mode: forwards;
+  animation-iteration-count: initial;
+  animation-duration: 1.5s;
+  animation-delay: 2s;
+}
+.heroCard:nth-child(2) {
+  animation-name: monFrame2;
+  animation-fill-mode: forwards;
+  animation-iteration-count: initial;
+  animation-duration: 1.5s;
+  animation-delay: 2s;
+  opacity: 0;
+}
+.heroCard:nth-child(3) {
+  background-color: white;
+  overflow: hidden;
+  animation-name: monFrame;
+  animation-fill-mode: forwards;
+  animation-iteration-count: initial;
+  animation-duration: 1.5s;
+  animation-delay: 2s;
+  opacity: 0;
+}
+.heroCard img {
+  height: 100%;
+}
+
+@keyframes monFrame {
+  0% {
+    transform: translate(1000px, -800px) rotate(30deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(70%, 50%) rotate(30deg);
+    opacity: 1;
+  }
+}
+
+@keyframes monFrame2 {
+  0% {
+    transform: translate(-800px, -800px) rotate(-20deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(20%) rotate(-20deg);
+    opacity: 1;
+  }
+}
+
+@keyframes monFrame3 {
+  0% {
+    transform: translate(800px, 800px) rotate(20deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(50%) rotate(20deg);
+    opacity: 1;
+  }
 }
