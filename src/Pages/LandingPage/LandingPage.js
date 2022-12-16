@@ -137,7 +137,7 @@ const LandingPage = () => {
                 quod cum sunt quasi aut consectetur incidunt est quae
                 accusantium est maiores harum. Aut accusantium iusto et quaerat
                 corporis id voluptate fugit. Est debitis sunt quo eius corrupti
-                qui autem quia!
+
               </p>
               <button className={classes.emailBtn}>
                 <i class="fas fa-solid fa-envelope-open-text"></i> Email us for
