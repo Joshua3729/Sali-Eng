@@ -1,12 +1,12 @@
-import React from 'react'
-import './Footer.css';
-import Logo from '../UI/Logo/Logo';
-import facebook from '../../Assets/social-media/facebook.png';
+import React from "react";
+import "./Footer.css";
+import Logo from "../UI/Logo/Logo";
+import facebook from "../../Assets/social-media/facebook.png";
 import linkedIn from "../../Assets/social-media/linkedin.png";
 import instagram from "../../Assets/social-media/instagram.png";
 import twitter from "../../Assets/social-media/twitter.png";
 import whatsapp from "../../Assets/social-media/whatsapp.png";
-import location from '../../Assets/Images/location.png'
+import location from "../../Assets/Images/location.png";
 import phoneCall from "../../Assets/Images/call.png";
 import messageUs from "../../Assets/Images/message.png";
 const Footer = () => {
@@ -100,6 +100,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

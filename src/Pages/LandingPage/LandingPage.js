@@ -119,7 +119,7 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-        <SuppliersSection />
+        {/* <SuppliersSection /> */}
         <div className={classes.contact_section}>
           <SVGComponent />
 
@@ -139,6 +139,10 @@ const LandingPage = () => {
                 corporis id voluptate fugit. Est debitis sunt quo eius corrupti
                 qui autem quia!
               </p>
+              <button className={classes.emailBtn}>
+                <i class="fas fa-solid fa-envelope-open-text"></i> Email us for
+                more info
+              </button>
             </div>
             <div className={classes.form_wrapper}>
               <form className={classes.contactus_form}>

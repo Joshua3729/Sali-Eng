@@ -16,14 +16,17 @@
 }
 .section_2 .header_wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .primary_header {
   color: #181b29;
+  width: 50%;
 }
 .section_details {
-  width: 400px;
   color: #54595f;
+  width: 50%;
+  font-size: 20px;
 }
 .innerWraper {
   display: block;

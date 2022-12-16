@@ -131,7 +131,6 @@
   margin-bottom: 20px;
 }
 
-
 .contact_section {
   position: relative;
   background-image: linear-gradient(
@@ -144,7 +143,7 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh + 50px);
   background-color: #181b29;
   padding: 50px;
   box-sizing: border-box;
@@ -267,4 +266,14 @@
   color: white;
   font-size: 20px;
   font-weight: 700;
+}
+.emailBtn {
+  border-radius: 10px;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  box-sizing: border-box;
 }

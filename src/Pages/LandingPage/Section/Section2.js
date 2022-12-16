@@ -12,7 +12,9 @@ const Section2 = () => {
     <div className={classes.section_2}>
       <div className={classes.innerWraper}>
         <div className={classes.header_wrapper}>
-          <h1 className={classes.primary_header}>Our Services</h1>
+          <h1 className={classes.primary_header}>
+            Multi-level Production Manufacturing
+          </h1>
           <div className={classes.section_details}>
             <p>
               We believe in serving you by providing affordable, smart and
