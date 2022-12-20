@@ -1,11 +1,11 @@
 
 import classes from './Projects.module.css';
-import img1 from "../../Components/drawable/AboutUsBG.jpg";
-import img2 from "../../Components/drawable/DOVEMEN.jpeg";
-import img3 from "../../Components/drawable/GLASS.jpeg";
+import img1 from "../../Components/drawable/sneaker.jpeg";
+import img2 from "../../Components/drawable/pamper.jpeg";
+import img3 from "../../Components/drawable/shoereck.jpeg";
 import img4 from "../../Components/drawable/PSVITA.jpeg";
-import img5 from "../../Components/drawable/WOOD.jpeg";
-import img6 from "../../Components/drawable/stand.jpeg";
+import img5 from "../../Components/drawable/SHELF.jpeg";
+import img6 from "../../Components/drawable/glassstand.jpeg";
 import img7 from "../../Components/drawable/Wines.jpeg";
 import img8 from "../../Components/drawable/WOLF.jpeg";
 import img9 from "../../Components/drawable/BLUE.jpeg";

@@ -87,7 +87,7 @@ export default class ProjectsSection3 extends Component {
 
                 <div className={classes.containerWithinForm}>
                   <div className={classes.formContent}>
-                    <label className={classes.formSubtitle}>Full name</label>
+                    <label className={classes.formSubtitle}>Full name*</label>
                     <input
                       type="text"
                       value={this.state.userName}
@@ -99,7 +99,7 @@ export default class ProjectsSection3 extends Component {
 
                   <div className={classes.formContent}>
                     <label className={classes.formSubtitle}>
-                      Email address
+                      Email address*
                     </label>
                     <input
                       type="text"
@@ -111,7 +111,7 @@ export default class ProjectsSection3 extends Component {
                   </div>
 
                   <div className={classes.formContent}>
-                    <label className={classes.formSubtitle}>Subject</label>
+                    <label className={classes.formSubtitle}>Subject*</label>
                     <input
                       type="text"
                       value={this.state.userSubject}

@@ -1,5 +1,5 @@
 import classes from './AboutUsPage.module.css';
-import img1 from '../../Components/drawable/ALCOHOL.jpeg';
+import img1 from '../../Components/drawable/sneaker.jpeg';
 import img2 from '../../Components/drawable/pamper.jpeg';
 import img3 from '../../Components/drawable/MINIONS.jpeg';
 import img4 from '../../Components/drawable/WINESHELF.jpeg';

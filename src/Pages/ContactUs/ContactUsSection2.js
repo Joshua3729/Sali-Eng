@@ -6,7 +6,7 @@ import img1 from '../../Components/drawable/WINESHELF.jpeg';
 import img2 from '../../Components/drawable/MINIONS.jpeg';
 import img3 from '../../Components/drawable/BLUEBAY.jpeg';
 import img5 from '../../Components/drawable/DOVEMEN.jpeg';
-import img4 from '../../Components/drawable/stand.jpeg';
+import img4 from '../../Components/drawable/glassstand.jpeg';
 
 import img6 from '../../Components/drawable/img5.jpg';
 const ContactUsSection2 = () => {
