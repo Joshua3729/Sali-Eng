@@ -1,208 +1,231 @@
-.firstLine{
-    color:rgb(2, 2, 27);
-    font-weight: bold;
-    opacity: .8;
-    font-size: 3rem;
-    text-align: center;
+.firstLine {
+  color: rgb(2, 2, 27);
+  font-weight: bold;
+  opacity: 0.8;
+  font-size: 3rem;
+  text-align: center;
 }
-.section{
-    width: 80%;
-}
-
-.gridItemImg{
-    width: 10rem;
-    height: 10rem;
-    opacity: 1;
-}
-.gridContainer1{
-    margin: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display: grid;
-    grid-template-columns: auto  auto auto auto auto auto;
-    gap: 1rem;
-
+.section {
+  width: 80%;
 }
 
-.subject{
-    color:rgb(2, 2, 27);
-    font-weight: bold;
-    opacity: .8;
-    font-size: 1rem;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    
-    
-
+.gridItemImg {
+  width: 10rem;
+  height: 10rem;
+  opacity: 1;
 }
-.subjectLine{
+.gridContainer1 {
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 1rem;
+}
+
+.subject {
+  color: rgb(2, 2, 27);
+  font-weight: bold;
+  opacity: 0.8;
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.subjectLine {
   color: grey;
-  opacity: .7;
+  opacity: 0.7;
   font-size: 1.2rem;
   text-align: center;
   margin-bottom: 50px;
-  
-
 }
-.alignment{
-    contain: content;
-    background-color: grey;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 5px;
-    padding-left: 2px;
-    padding-right: 2px;
-    
+.alignment {
+  contain: content;
+  background-color: grey;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
-.form{
-    margin-top: 50px;
+.form {
+  margin-top: 50px;
 }
-.wrapper{
-    width: fit-content;
-    height: fit-content;
+.wrapper {
+  width: fit-content;
+  height: fit-content;
 }
-.cardContainer{
-    display: grid;
-    margin: auto;
-    grid-template-columns: auto auto auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    gap: 1rem;
+.cardContainer {
+  display: grid;
+  margin: auto;
+  grid-template-columns: auto auto auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  gap: 1rem;
 }
-.card{
-    contain: content;
-    width: 15rem;
-    height: 9rem;
-    border-radius: 5px;
-    box-shadow:1px 1px  5px rgba(128, 128, 128, 0.3);
-    padding: 2rem;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(4, 4, 51, 0.1);
-    transition: transform 0.3s ease;
-    background-color: white;
-    
+.card {
+  contain: content;
+  width: 15rem;
+  height: 9rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.3);
+  padding: 2rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(4, 4, 51, 0.1);
+  transition: transform 0.3s ease;
+  background-color: white;
 }
-.cardIcon{
-    position: relative;
-    width: 1.8rem;
-    height: 1.8rem;
-    left: 40%;
-    border-radius: 30px;
-    background-color:rgba(4, 4, 51, 0.5);
-    padding: 1rem;
+.cardIcon {
+  position: relative;
+  width: 1.8rem;
+  height: 1.8rem;
+  left: 40%;
+  border-radius: 30px;
+  background-color: rgba(4, 4, 51, 0.5);
+  padding: 1rem;
 }
-.callUs{
-    margin-top: 10px;
-    text-align: center;
-    color:rgb(2, 2, 27);
-    font-weight: bold;
-    opacity: .8;
-    font-size: 1rem;
+.callUs {
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(2, 2, 27);
+  font-weight: bold;
+  opacity: 0.8;
+  font-size: 1rem;
 }
-.callUsNo{
-    margin-top: 10px;
-    color: grey;
-  opacity: .7;
+.callUsNo {
+  margin-top: 10px;
+  color: grey;
+  opacity: 0.7;
   font-size: 1rem;
   text-align: center;
 }
-.card:hover{
-    box-shadow:1px 1px  2px  2px rgba(128, 128, 128, 0.3);
-    transform: scale(1.01);
+.card:hover {
+  box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.3);
+  transform: scale(1.01);
 }
 
-.contactUsForm{
-    margin: auto;
-    margin-top: 7rem;
-    margin-bottom: 7rem;
-    padding: 2rem;
-    width: 65%;
-    border-style: solid;
-    border-width: 1px;
-    background-color:white;
-    border-radius: 5px;
-    box-shadow:1px 1px  3px  3px rgba(128, 128, 128, 0.3);
-    padding: 1rem;
-    border-color: rgba(4, 4, 51, 0.1);
-    
+.contactUsForm {
+  margin: auto;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  padding: 2rem;
+  width: 65%;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 3px rgba(128, 128, 128, 0.3);
+  padding: 1rem;
+  border-color: rgba(4, 4, 51, 0.1);
 }
 
-.formTitle{
-    color:rgb(2, 2, 27);
-    font-weight: bold;
-    opacity: .8;
-    font-size: 2rem;
+.formTitle {
+  color: rgb(2, 2, 27);
+  font-weight: bold;
+  opacity: 0.8;
+  font-size: 2rem;
 }
-.formSubtitle{
-    text-align: start;
-    color: grey;
-    opacity: .7;
-    font-size: 1.15rem;
-    margin-top: .7rem;
-    
+.formSubtitle {
+  text-align: start;
+  color: grey;
+  opacity: 0.7;
+  font-size: 1.15rem;
+  margin-top: 0.7rem;
 }
-.input{
-    height: 2.5rem;
-    width: 90%;
-    border-width: 0;
-    border-radius: 5px;
-    background-color:rgba(2, 2, 27, 0.025);
-    color: black;
-    font-size: 1rem;
-    
+.input {
+  height: 2.5rem;
+  width: 90%;
+  border-width: 0;
+  border-radius: 5px;
+  background-color: rgba(2, 2, 27, 0.025);
+  color: black;
+  font-size: 1rem;
 }
-.containerWithinForm{
-    display: flex;
-    gap:1rem;
-    flex-wrap: wrap;
-   
-    
+.containerWithinForm {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
-.formContent{
-    display: grid;
-    width: 48%;
+.formContent {
+  display: grid;
+  width: 48%;
 }
-.paragraphInForm{
-    display:grid;
-    width: 100%;
-    contain: content;
-   
+.paragraphInForm {
+  display: grid;
+  width: 100%;
+  contain: content;
 }
-.paragraphInForm> textarea{
-    height: 7rem;
-    border-width: 0;
-    border-radius: 5px;
-    background-color:rgba(2, 2, 27, 0.025);;
-    color: black;
-    font-size: 1rem;
-    text-align: start;
-    word-wrap: break-word;
-    word-break: break-all;
-    resize: none;
-    
+.paragraphInForm > textarea {
+  height: 7rem;
+  border-width: 0;
+  border-radius: 5px;
+  background-color: rgba(2, 2, 27, 0.025);
+  color: black;
+  font-size: 1rem;
+  text-align: start;
+  word-wrap: break-word;
+  word-break: break-all;
+  resize: none;
 }
-.buttonSubmit{
-    margin-top: 1rem;
-    font-size: 1rem;
-    color:white;
-    background:linear-gradient(90deg,rgba(2, 2, 27, 0.9),rgba(2, 2, 27, .9),rgba(2, 2, 27, .7)) ;
-    padding: 1rem;
-    font-weight: bold;
-    border-width: 0px;
-    border-radius: 5px;
+.buttonSubmit {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 2, 27, 0.9),
+    rgba(2, 2, 27, 0.9),
+    rgba(2, 2, 27, 0.7)
+  );
+  padding: 1rem;
+  font-weight: bold;
+  border-width: 0px;
+  border-radius: 5px;
 }
-.buttonSubmit:hover{
-    opacity: .8;
+.buttonSubmit:hover {
+  opacity: 0.8;
 }
-.input:focus{
-    border-width: 0;
-    outline: none;
+.input:focus {
+  border-width: 0;
+  outline: none;
 }
 
-.paragraphInForm> textarea:focus{
-    border-width: 0;
-    outline: none;
+.paragraphInForm > textarea:focus {
+  border-width: 0;
+  outline: none;
+}
+
+@keyframes section1Animation {
+  0% {
+    transform: scale(1.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.section1Parent {
+  height: 70vh;
+  position: relative;
+
+  overflow: hidden;
+}
+.innerWrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: section1Animation;
+  animation-duration: 2s;
+}
+.section {
+  width: 80%;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
 }

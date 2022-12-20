@@ -1,21 +1,19 @@
-.input:focus{
+.input:focus {
   outline: none;
 }
 
-.paragraphInForm> textarea:focus{
+.paragraphInForm > textarea:focus {
   outline: none;
 }
-.paragraphInForm{
-  display:grid;
+.paragraphInForm {
+  display: grid;
   width: 100%;
   contain: content;
- 
 }
 .paragraphInForm > label {
   margin-inline: 5px;
-  
 }
-.paragraphInForm> textarea{
+.paragraphInForm > textarea {
   height: 7rem;
   border-radius: 5px;
   background-color: rgba(2, 2, 27, 0.025);
@@ -32,23 +30,19 @@
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-
-
-  
 }
-.formContent{
+.formContent {
   display: grid;
   width: 48%;
-  margin-left: .3rem;
+  margin-left: 0.3rem;
 }
-.containerWithinForm{
+.containerWithinForm {
   display: flex;
-  gap:.5rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
 }
 
-
-.input{
+.input {
   height: 3rem;
   border-width: 0;
   border-radius: 5px;
@@ -59,88 +53,84 @@
   width: 12rem;
   color: black;
 }
-.formSubtitle{
-  text-align:start;
+.formSubtitle {
+  text-align: start;
   color: grey;
-  opacity: .7;
-  font-size: 1.10rem;
-  margin-top: .7rem;
+  opacity: 0.7;
+  font-size: 1.1rem;
+  margin-top: 0.7rem;
 }
-.paragraph{
+.paragraph {
   text-align: center;
   justify-content: center;
 }
-.formTitle{
-  color:rgb(2, 2, 27);
+.formTitle {
+  color: rgb(2, 2, 27);
   font-weight: bold;
-  opacity: .8;
+  opacity: 0.8;
   font-size: 2rem;
-  
 }
-.deals{
-  padding: .6rem;
-  padding-left:.2rem;
-  font-size: .8rem;
+.deals {
+  padding: 0.6rem;
+  padding-left: 0.2rem;
+  font-size: 0.8rem;
   font-weight: bold;
   width: fit-content;
   background-color: rgba(2, 2, 27, 0.1);
   border-radius: 19px;
- 
 }
-.deals> span{
+.deals > span {
   margin-block: auto;
 }
-.exclusive{
-  
+.exclusive {
   background-color: rgb(105, 212, 177);
   border-radius: 17px;
   padding: 4px;
-  
 }
-.innerGrid{
+.innerGrid {
   width: 90%;
   text-align: start;
-  display:grid;
+  display: grid;
   gap: 1rem;
   justify-content: start;
 }
 
-.subjectLine{
+.subjectLine {
   padding-top: 2rem;
   font-size: 2.5rem;
   font-weight: bold;
 }
-.storyLine{
+.storyLine {
   font-size: 1.25rem;
 }
-.moreInfoButton{
+.moreInfoButton {
   background-color: white;
   color: rgb(35, 34, 34);
-  padding: .3rem;
+  padding: 0.3rem;
   border: 2px solid black;
-  border-radius: 4px  4px  4px  4px;
+  border-radius: 4px 4px 4px 4px;
 }
-.moreInfoButton:hover{
+.moreInfoButton:hover {
   background-color: black;
   color: white;
 }
 .triangle {
-  width:0; 
-  border-bottom:120px solid red; 
-  border-left:60px solid white; 
-  border-right:60px solid white;
+  width: 0;
+  border-bottom: 120px solid red;
+  border-left: 60px solid white;
+  border-right: 60px solid white;
 }
-.animationForm{
-  color:white;
+.animationForm {
+  color: white;
   font-weight: bold;
   padding: 1rem;
   text-align: left;
   margin-right: 6px;
 }
-.link{
+.link {
   color: #fff;
 }
-.section{
+.section {
   text-align: center;
   margin-inline: auto;
   width: 80%;
@@ -151,111 +141,117 @@
   justify-content: center;
 }
 
-.message{
+.message {
   padding-top: 5rem;
 }
-.form{
+.form {
   background-color: white;
   height: fit-content;
   width: 100%;
   box-shadow: 1px 1px 5px black;
   border-radius: 5px;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
-.buttonSubmit{
+.buttonSubmit {
   margin-top: 1rem;
   font-size: 1rem;
-  color:white;
-  background:linear-gradient(90deg,rgba(2, 2, 27, 0.9),rgba(2, 2, 27, .9),rgba(2, 2, 27, .7)) ;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 2, 27, 0.9),
+    rgba(2, 2, 27, 0.9),
+    rgba(2, 2, 27, 0.7)
+  );
   padding: 1rem;
   font-weight: bold;
   border-width: 0px;
   border-radius: 5px;
 }
-.buttonSubmit{
+.buttonSubmit {
   margin-top: 1rem;
   font-size: 1rem;
-  color:white;
-  background:linear-gradient(90deg,rgba(2, 2, 27, 0.9),rgba(2, 2, 27, .9),rgba(2, 2, 27, .7)) ;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 2, 27, 0.9),
+    rgba(2, 2, 27, 0.9),
+    rgba(2, 2, 27, 0.7)
+  );
   padding: 1rem;
   font-weight: bold;
   border-width: 0px;
   border-radius: 5px;
 }
-.buttonSubmit:hover{
-  opacity: .8;
+.buttonSubmit:hover {
+  opacity: 0.8;
 }
-.buttonSubmit:hover{
-  opacity: .8;
+.buttonSubmit:hover {
+  opacity: 0.8;
 }
-.WWDForSection3{
-    background: linear-gradient(135deg,rgb(2, 2, 27),white);
-    height: fit-content;
-    width: 100%;
+.WWDForSection3 {
+  background: linear-gradient(135deg, rgb(2, 2, 27), white);
+  height: fit-content;
+  width: 100%;
 }
-.section3Container{
+.section3Container {
   display: flex;
   justify-content: center;
 }
-a{
+a {
   margin-left: 16px;
 }
-.Icons{
+.Icons {
   display: flex;
-  
-justify-content: space-between;
-  
+
+  justify-content: space-between;
 }
-.buttonSection3{
+.buttonSection3 {
   border: 10px 10px 10px 10px;
-  color:rgb(2, 2, 27);
+  color: rgb(2, 2, 27);
   padding: 10px 22px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
 }
-.section3Container{
-  background: linear-gradient(135deg,rgb(2, 2, 27),white);
+.section3Container {
+  background: linear-gradient(135deg, rgb(2, 2, 27), white);
   height: fit-content;
   width: 100%;
-  
-
 }
-.section_2{
-  margin-left:5%;
+.section_2 {
+  margin-left: 5%;
   margin-right: 5%;
   margin-top: 80px;
   margin-bottom: 30px;
 }
-.mySectio{
+.mySectio {
   width: 100%;
   margin: 0px;
   padding: 0px;
- 
 }
 
 .H1div {
-  color:rgba(4, 4, 51);
+  color: rgba(4, 4, 51);
 }
 .Pdiv {
- color :rgba(4, 4, 51);
+  color: rgba(4, 4, 51);
 }
 .H4div {
   width: 16rem;
   color: #fff;
   border-radius: 5px;
-   background-color:rgba(4, 4, 51);;
- } 
-.last2Cards{
+  background-color: rgba(4, 4, 51);
+}
+.last2Cards {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
 }
- .cards_gridWrapper {
+.cards_gridWrapper {
   width: 100%;
-  height:50%;
+  height: 50%;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
@@ -263,7 +259,7 @@ justify-content: space-between;
 .cards_gridWrapper2 {
   margin-left: 50px;
   width: 400%;
-  height:50%;
+  height: 50%;
   /* display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr); */
@@ -272,46 +268,59 @@ justify-content: space-between;
 .cards_gridWrapper3 {
   width: 120%;
   margin-right: 50px;
-  height:50%;
+  height: 50%;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
 }
+
+.WWDsection1Parent {
+  display: flex;
+  justify-content: center;
+}
+
+.WWDsection1 {
+  width: 100%;
+}
+
 @keyframes section1Animation {
-    0%   { width:130%;}
-    100% { width:100%;}
+  0% {
+    transform: scale(1.7);
   }
+  100% {
+    transform: scale(1);
+  }
+}
+.WWDsection1Parent {
+  height: 70vh;
+  position: relative;
 
-  .WWDsection1{
-    animation-name: section1Animation;
-    animation-duration: 2s;
-  }
-  .whatwedo{
-    animation-name: section1Animation;
-    animation-duration: 2s;
-  } 
-  .WWDsection1Parent{
-    display: flex;
-    justify-content: center;
-  }
+  overflow: hidden;
+}
+.innerWrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: section1Animation;
+  animation-duration: 2s;
+}
 
-  .WWDsection1{
-    width: 100%;
-  }
-  .aboutUsText{
-    animation-name: section1Animation;
-    /* animation-duration: 1s; */
-  } 
+.aboutUsText {
+  animation-name: section1Animation;
+  /* animation-duration: 1s; */
+}
 
-
-  .aboutUsText {
-    backface-visibility: hidden;
-    font-size: 2rem;
-    color:white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    
-  }
+.aboutUsText {
+  backface-visibility: hidden;
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
