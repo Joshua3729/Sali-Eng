@@ -5,20 +5,28 @@
 }
 @keyframes section1Animation {
   0% {
-    width: 130%;
+    transform: scale(1.7);
   }
   100% {
-    width: 100%;
+    transform: scale(1);
   }
 }
 .section1Parent {
-  position: relative;
-  display: flex;
-  justify-content: center;
   height: 70vh;
+  position: relative;
+
+  overflow: hidden;
+}
+.innerWrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  animation-name: section1Animation;
+  animation-duration: 2s;
 }
 .section {
   width: 80%;
@@ -28,10 +36,6 @@
   padding: 0px;
 }
 
-.section1_ {
-  animation-name: section1Animation;
-  animation-duration: 2s;
-}
 .aboutUsText {
   backface-visibility: hidden;
   font-size: 2rem;
