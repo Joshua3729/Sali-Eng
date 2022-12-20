@@ -1,0 +1,8 @@
+.PageBanner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: "100%";
+  stroke: transparent;
+  stroke-width: 0px;
+}
