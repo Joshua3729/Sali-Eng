@@ -10,7 +10,7 @@
   -moz-box-shadow: 0 0 3px #ccc;
   -webkit-box-shadow: 0 0 3px #ccc;
   box-shadow: 0 0 3px #ccc;
-  transition: all 1s;
+  opacity: 0;
 }
 .parrallex_text {
   width: 700px;
@@ -18,4 +18,53 @@
   margin-top: 0;
   margin-bottom: 20px;
   transition: all 2s;
+  opacity: 0;
+}
+.paragraphAnimation {
+  animation-name: paragraphAnimation;
+  animation-fill-mode: forwards;
+  animation-iteration-count: initial;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+}
+.buttonAnimation {
+  animation-name: buttonAnimation;
+  animation-fill-mode: forwards;
+  animation-iteration-count: initial;
+  animation-duration: 1.5s;
+  animation-delay: 1.3s;
+}
+.button2 {
+  opacity: 0;
+}
+.paragraph2Wrapper {
+  opacity: 0;
+}
+.paragraph2Animation {
+  animation-name: paragraphAnimation;
+  animation-fill-mode: forwards;
+  animation-iteration-count: initial;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+}
+@keyframes paragraphAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes buttonAnimation {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
 }

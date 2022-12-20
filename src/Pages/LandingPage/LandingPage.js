@@ -15,6 +15,7 @@ import SVGComponent from "./SvgComponent/SvgComponent";
 import person from "../../Assets/Images/person.png";
 import PersonIcon from "../../Components/UI/Logo/SVGComponets/PersonIcon";
 import TextAnimation2 from "./Components/TextAnimation2/TextAnimation2";
+import testimonialBanner from "../../Assets/Images/testimonial-banner.png";
 
 const LandingPage = () => {
   const { ref, inView } = useInView({ threshold: 0.3, triggerOnce: true });
@@ -120,6 +121,7 @@ const LandingPage = () => {
           </div>
         </div>
         {/* <SuppliersSection /> */}
+
         <div className={classes.contact_section}>
           <SVGComponent />
 
@@ -132,23 +134,30 @@ const LandingPage = () => {
                 text={"Looking after the details and the planet"}
               />
               {/* </h1> */}
-              <p className={classes.innerText}>
-                Lorem ipsum dolor sit amet. Sed quia necessitatibus et quidem
-                quod cum sunt quasi aut consectetur incidunt est quae
-                accusantium est maiores harum. Aut accusantium iusto et quaerat
-                corporis id voluptate fugit. Est debitis sunt quo eius corrupti
 
-              </p>
-              <button className={classes.emailBtn}>
-                <i class="fas fa-solid fa-envelope-open-text"></i> Email us for
-                more info
-              </button>
+              <EaseInComponent type={"paragraph2"}>
+                <p className={classes.innerText}>
+                  Lorem ipsum dolor sit amet. Sed quia necessitatibus et quidem
+                  quod cum sunt quasi aut consectetur incidunt est quae
+                  accusantium est maiores harum. Aut accusantium iusto et
+                  quaerat corporis id voluptate fugit. Est debitis sunt quo eius
+                  corrupti
+                </p>
+              </EaseInComponent>
+
+              <EaseInComponent type={"button2"}>
+                <button className={classes.emailBtn}>
+                  <i class="fas fa-solid fa-envelope-open-text"></i> Email us
+                  for more info
+                </button>
+              </EaseInComponent>
             </div>
+
             <div className={classes.form_wrapper}>
               <form className={classes.contactus_form}>
                 {/* <h3 className={classes.form_header}>Get in touch</h3> */}
                 <TextAnimation2
-                  text={"Get sin touch"}
+                  text={"Get in touch"}
                   header={true}
                   color={"#495057"}
                 />

@@ -37,12 +37,13 @@ const Hero = () => {
           Your One Stop Shop For Retail Solutions. Come Work With Us
         </h1> */}
         <div className={classes.CTA_innerWrapper}>
-          <TextAnimation text={"Tommorrow is designed today!"} header={true} />
+          <TextAnimation
+            text={"Let us design your tommorrow today!"}
+            header={true}
+          />
           <p className={classes.secondaryHeader}>
             At ILUMI DESIGN we design metal, plastic and wood work for clients.
-            We also create logos and all aided design art work. We organise
-            manufacturing companies for our clients to get quotation and get
-            their product running.
+            We also create logos and all aided design art work.
           </p>
           <button className={classes.CTA_btn}>Explore More</button>
         </div>

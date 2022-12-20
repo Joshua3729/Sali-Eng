@@ -32,9 +32,11 @@ const Section2 = () => {
             }}
           >
             <Card
-              image={desk}
-              header={"Office Equipment"}
-              details={"Get State Of The Art Office Equipment At Low Prices"}
+              image={
+                "https://mir-s3-cdn-cf.behance.net/project_modules/1400/46f58e90581057.5e1b77f069fdc.jpg"
+              }
+              header={"Product Grofiers"}
+              details={"High quality designs."}
             />
           </div>
           <div
@@ -45,8 +47,10 @@ const Section2 = () => {
             }}
           >
             <Card
-              image={storage}
-              header={"Retail Garmet Wardrobes"}
+              image={
+                "https://i.pinimg.com/originals/e9/d3/89/e9d389c647df2be00f6f585d7bd6990a.jpg"
+              }
+              header={"Counter Top Displays"}
               details={"We Build Industrial Retail Wardrobe."}
             />
           </div>
@@ -58,8 +62,10 @@ const Section2 = () => {
             }}
           >
             <Card
-              image={kitchen}
-              header={"Large Kitchen Cupboards"}
+              image={
+                "https://mir-s3-cdn-cf.behance.net/project_modules/disp/98977017312529.562b875f9c22b.jpg"
+              }
+              header={"Kiosk store counters"}
               details={"We Also Build State Of The A Kitchen Equipment"}
             />
           </div>
