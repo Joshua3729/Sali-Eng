@@ -2,6 +2,7 @@ import classes from "../WhatWeDo2/WhatWeDo2.module.css";
 import imageSection1 from "../../Assets/Images/Kitchen.jpeg";
 import workshopImg from "../../Assets/Images/workshop.avif";
 import PageBanner from "../AboutUsPage/SVGComponent/PageBanner";
+import BannerTextAnimation from "../../Components/BannerTextAnimation/BannerTextAnimation";
 
 const WWDSection1 = () => {
   return (
@@ -15,7 +16,13 @@ const WWDSection1 = () => {
         ></div>
 
         <PageBanner />
-        <p className={classes.aboutUsText}>What We Do</p>
+        <p className={classes.aboutUsText}>
+          <BannerTextAnimation
+            text={"What we do"}
+            header={true}
+            color={"white"}
+          />
+        </p>
       </div>
     </>
   );

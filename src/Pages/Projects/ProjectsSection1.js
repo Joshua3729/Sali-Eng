@@ -2,6 +2,7 @@ import classes from "../AboutUsPage/AboutUsPage.module.css";
 import img2 from "../../Components/drawable/img1.jpg";
 import projectsImg from "../../Assets/Images/projects.avif";
 import PageBanner from "../AboutUsPage/SVGComponent/PageBanner";
+import BannerTextAnimation from "../../Components/BannerTextAnimation/BannerTextAnimation";
 
 const ProjectsSection1 = () => {
   return (
@@ -15,7 +16,13 @@ const ProjectsSection1 = () => {
         ></div>
 
         <PageBanner />
-        <p className={classes.aboutUsText}>Projects</p>
+        <p className={classes.aboutUsText}>
+          <BannerTextAnimation
+            text={"Projects"}
+            header={true}
+            color={"white"}
+          />
+        </p>
       </div>
     </>
   );

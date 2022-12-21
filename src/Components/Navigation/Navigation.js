@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../UI/Logo/Logo";
+import LogoComponent from "../UI/LogoComponent/LogoComponent";
 
 const Navigation = ({ activeLink }) => {
   const [scroll, setScroll] = useState(false);
@@ -25,7 +26,7 @@ const Navigation = ({ activeLink }) => {
           : classes.Navigation
       }
     >
-      <Logo scroll={scroll} />
+      <LogoComponent scroll={scroll} />
       <ul className={classes.nav_list}>
         <li className={classes.nav_item}>
           <Link
@@ -135,22 +136,18 @@ const Navigation = ({ activeLink }) => {
           className={classes.nav_item}
           style={{ color: scroll ? "black" : "white" }}
         >
-          <Link
-            to="/Quote" 
-          >
-              <span
-              // className={
-              //   activeLink === "/Quote"
-              //     ? [classes.navLink, classes.activeLink].join(" ")
-              //     : classes.navLink
-              
-              // }
+          <Link to="/Quote">
+            <span
+            // className={
+            //   activeLink === "/Quote"
+            //     ? [classes.navLink, classes.activeLink].join(" ")
+            //     : classes.navLink
+
+            // }
             >
-             <button className={classes.CTA_btn }>Get a Quote</button>
+              <button className={classes.CTA_btn}>Get a Quote</button>
             </span>
-          
           </Link>
-   
         </li>
       </ul>
     </div>,

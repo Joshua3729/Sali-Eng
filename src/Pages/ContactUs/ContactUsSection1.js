@@ -2,6 +2,7 @@ import classes from "../AboutUsPage/AboutUsPage.module.css";
 import img2 from "../../Components/drawable/img1.jpg";
 import contactusImg from "../../Assets/Images/contactus.jpg";
 import PageBanner from "../AboutUsPage/SVGComponent/PageBanner";
+import BannerTextAnimation from "../../Components/BannerTextAnimation/BannerTextAnimation";
 
 function ContactUsSection1() {
   return (
@@ -15,7 +16,13 @@ function ContactUsSection1() {
         ></div>
 
         <PageBanner />
-        <p className={classes.aboutUsText}>Contact us</p>
+        <p className={classes.aboutUsText}>
+          <BannerTextAnimation
+            text={"Contact us"}
+            header={true}
+            color={"white"}
+          />
+        </p>
       </div>
     </>
   );
