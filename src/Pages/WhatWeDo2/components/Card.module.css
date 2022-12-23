@@ -1,13 +1,11 @@
 .Card {
-  height: 500px;
-  width: 350px;
   background-color: white;
   border-radius: 7px;
   overflow: hidden;
-  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  /* box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%); */
+  box-shadow: 0 0.25rem 0.5rem rgb(0 0 0 / 5%), 0 1.5rem 2.2rem rgb(0 0 0 / 10%);
 }
 .Cards {
-  height: 500px;
   width: 450px;
   background-color: white;
   border-radius: 7px;
@@ -28,10 +26,19 @@
 }
 .img_wrapper {
   width: 100%;
-  height: 50%;
-  background-color: blue;
+  /* background-color: blue; */
 }
 .text_wrapper {
   padding: 20px;
+
   box-sizing: border-box;
+  /* background-color: aqua; */
+  height: auto;
+}
+.text_wrapper h2 {
+  margin: 0;
+  color: #495057;
+}
+.text_wrapper p {
+  color: #adb5bd;
 }
